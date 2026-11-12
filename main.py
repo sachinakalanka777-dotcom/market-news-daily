@@ -22,7 +22,7 @@ def main():
     logging.info(f"Starting news pipeline for date: {args.date}")
 
     # 1. Fetch and filter articles
-    articles = get_filtered_articles(hours=72)
+    articles = get_filtered_articles(hours=48)
 
     # 2. Summarize with Gemini
     ai_data = summarize_articles(articles)
