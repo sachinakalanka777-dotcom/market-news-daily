@@ -25,7 +25,7 @@ def summarize_articles(articles, retries=3):
 
     prompt = f"""
 You are an expert financial analyst. Review the following recent news articles.
-Select the top 5 to 8 most market-moving stories for the US stock market.
+Select the top 15 to 30 most market-moving stories for the US stock market.
 
 Respond STRICTLY with a valid JSON object containing two keys:
 1. "market_overview": A 2-sentence summary of the day's overall news sentiment.
