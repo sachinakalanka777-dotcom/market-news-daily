@@ -65,7 +65,7 @@ def summarize_articles(articles, retries=3):
         except Exception as e:
             logging.error(f"Gemini API error: {e}")
             if attempt < retries - 1:
-                time.sleep(5) # Wait 5 seconds before retrying
+                time.sleep(900) # Wait 900 seconds before retrying
             else:
                 logging.error("Max retries reached for Gemini API.")
                 return {"market_overview": "Error generating AI summary.", "stories": []}
