@@ -1,0 +1,10 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Generated static site (optional to ignore, but good practice if deploying via GH Actions)
+site/
