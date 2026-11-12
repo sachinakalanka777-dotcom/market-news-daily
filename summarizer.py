@@ -11,7 +11,7 @@ def summarize_articles(articles, retries=3):
         return {"market_overview": "No significant market news found today.", "stories": []}
 
     api_key = os.environ.get("GEMINI_API_KEY")
-    model_name = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+    model_name = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
     
     if not api_key:
         raise ValueError("GEMINI_API_KEY is not set in environment variables.")
