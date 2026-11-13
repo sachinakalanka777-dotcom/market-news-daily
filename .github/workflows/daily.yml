@@ -2,7 +2,7 @@ name: Daily News Generator
 
 on:
   schedule:
-    - cron: '0 12 * * *' # Runs daily at 12:00 UTC (5:30 PM IST/SLST)
+    - cron: '30 0 * * *' # Runs daily at 12:00 UTC (5:30 PM IST/SLST)
   workflow_dispatch: # Allows manual trigger
 
 permissions:
