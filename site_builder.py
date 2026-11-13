@@ -2,7 +2,7 @@ import json
 import os
 from datetime import datetime
 
-def build_site():
+def build_site(data=None, date_str=None):
     print("Building site...")
     # Load daily data
     try:
