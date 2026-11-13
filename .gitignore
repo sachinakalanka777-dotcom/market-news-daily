@@ -1,10 +1,8 @@
-# Python environment
 venv/
+.venv/
 __pycache__/
-*.pyc
-
-# Environment variables
+*.py[cod]
 .env
-
-# Generated static site (optional to ignore, but good practice if deploying via GH Actions)
+.DS_Store
 site/
+data/

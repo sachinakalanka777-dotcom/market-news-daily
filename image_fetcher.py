@@ -1,49 +1,32 @@
+import logging
 import os
 import requests
-import logging
+from urllib.parse import quote
+
+PLACEHOLDER = "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1000&q=80"
+UTM = "?utm_source=marketpulsenews&utm_medium=referral"
+
 
 def get_image_for_story(keywords):
-    """Fetches a free stock photo using Unsplash, falls back to Pexels, then a placeholder."""
-    unsplash_key = os.environ.get("UNSPLASH_API_KEY")
-    pexels_key = os.environ.get("PEXELS_API_KEY")
-    
-    # 1. Try Unsplash
-    if unsplash_key:
+    key = os.getenv("UNSPLASH_API_KEY")
+    if key:
         try:
-            url = f"https://api.unsplash.com/search/photos?query={keywords}&per_page=1&orientation=landscape"
-            headers = {"Authorization": f"Client-ID {unsplash_key}"}
-            res = requests.get(url, headers=headers)
-            res.raise_for_status()
-            data = res.json()
-            if data["results"]:
-                img = data["results"][0]
+            response = requests.get(
+                "https://api.unsplash.com/search/photos",
+                params={"query": keywords or "US stock market finance", "per_page": 1, "orientation": "landscape"},
+                headers={"Authorization": f"Client-ID {key}"}, timeout=20,
+            )
+            response.raise_for_status()
+            results = response.json().get("results", [])
+            if results:
+                photo = results[0]
+                user = photo.get("user", {})
+                profile = user.get("links", {}).get("html", "https://unsplash.com") + UTM
                 return {
-                    "url": img["urls"]["regular"],
-                    "credit": f"Photo by {img['user']['name']} on Unsplash"
+                    "url": photo.get("urls", {}).get("regular", PLACEHOLDER),
+                    "credit_html": f'<a href="{profile}" target="_blank" rel="noopener">{user.get("name", "Photographer")}</a> / <a href="https://unsplash.com{UTM}" target="_blank" rel="noopener">Unsplash</a>',
+                    "credit": f"Photo by {user.get('name', 'Photographer')} on Unsplash",
                 }
-        except Exception as e:
-            logging.warning(f"Unsplash failed for '{keywords}': {e}")
-
-    # 2. Try Pexels (Backup)
-    if pexels_key:
-        try:
-            url = f"https://api.pexels.com/v1/search?query={keywords}&per_page=1&orientation=landscape"
-            headers = {"Authorization": pexels_key}
-            res = requests.get(url, headers=headers)
-            res.raise_for_status()
-            data = res.json()
-            if data["photos"]:
-                img = data["photos"][0]
-                return {
-                    "url": img["src"]["large"],
-                    "credit": f"Photo by {img['photographer']} on Pexels"
-                }
-        except Exception as e:
-            logging.warning(f"Pexels failed for '{keywords}': {e}")
-
-    # 3. Fallback Placeholder (using a free reliable placeholder service)
-    logging.info(f"Using default placeholder for '{keywords}'")
-    return {
-        "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80",
-        "credit": "Stock Photo"
-    }
+        except Exception as exc:
+            logging.warning("Unsplash lookup failed: %s", exc)
+    return {"url": PLACEHOLDER, "credit": "MarketPulse image placeholder", "credit_html": "MarketPulse"}

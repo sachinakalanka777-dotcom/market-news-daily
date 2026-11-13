@@ -1,68 +1,155 @@
-import os
 import json
-import time
 import logging
+import os
+import re
+import time
+
+import requests
 from google import genai
 from google.genai import types
 
+from config import GEMINI_MODEL, GROQ_MODEL, MAX_STORIES
+
+LOG = logging.getLogger(__name__)
+
+SYSTEM_PROMPT = """You are a careful US financial-news editor. Use ONLY the supplied article metadata/snippets. Never invent facts, dates, quotes, prices, forecasts, or causes. Do not claim a stock will rise/fall with certainty. Return valid JSON only, no markdown. Select at most the requested number of distinct stories most relevant to US listed markets. Rank by likely market significance, not sensationalism. Keep summaries original and concise."""
+
+
+def build_prompt(articles):
+    compact = []
+    for a in articles[:60]:
+        compact.append({
+            "id": a["article_id"], "title": a["title"], "source": a["source"],
+            "published": a["published_time"], "snippet": a["description"][:650],
+            "relevance": a["relevance_score"], "matched_topics": a["matched_keywords"],
+        })
+    return f"""Review these candidate news items for their potential impact on the US stock market. Return JSON with keys: market_overview (2 concise sentences), stories (array, maximum {MAX_STORIES}). Each story must contain: article_id (exact supplied id), headline, summary (2-3 factual sentences explaining market relevance), impact_type (Bullish, Bearish, or Neutral; choose Neutral if direction is unclear), market_impact (one cautious sentence), sectors_affected (array of up to 3 sectors), category (Economy, Federal Reserve, Earnings, Technology, Geopolitics, Regulation, Commodities, Banking, or Markets), image_keywords (2-4 simple English words). Never create URLs or sources; article_id must refer to an input item.
+
+CANDIDATE ARTICLES:
+{json.dumps(compact, ensure_ascii=False)}"""
+
+
+def extract_json(text):
+    text = (text or "").strip()
+    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text, flags=re.I)
+    start, end = text.find("{"), text.rfind("}")
+    if start < 0 or end <= start:
+        raise ValueError("AI response did not contain a JSON object")
+    return json.loads(text[start:end + 1])
+
+
+def call_gemini(prompt):
+    key = os.getenv("GEMINI_API_KEY")
+    if not key:
+        raise RuntimeError("GEMINI_API_KEY is not configured")
+    client = genai.Client(api_key=key)
+    response = client.models.generate_content(
+        model=GEMINI_MODEL,
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            system_instruction=SYSTEM_PROMPT,
+            response_mime_type="application/json",
+            temperature=0.2,
+        ),
+    )
+    return extract_json(response.text)
+
+
+def call_groq(prompt):
+    key = os.getenv("GROQ_API_KEY")
+    if not key:
+        raise RuntimeError("GROQ_API_KEY is not configured (optional backup)")
+    response = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+        json={
+            "model": GROQ_MODEL,
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT + " Output only valid JSON."},
+                {"role": "user", "content": prompt},
+            ],
+            "temperature": 0.2,
+            "max_tokens": 7000,
+        },
+        timeout=90,
+    )
+    response.raise_for_status()
+    return extract_json(response.json()["choices"][0]["message"]["content"])
+
+
+def fallback_data(articles):
+    """A no-AI fallback: publish original titles, source snippets and links safely."""
+    stories = []
+    for article in articles[:MAX_STORIES]:
+        desc = article.get("description") or "The publisher has not supplied a summary. Open the original article for full details."
+        stories.append({
+            "article_id": article["article_id"], "headline": article["title"],
+            "summary": desc[:420], "impact_type": "Neutral",
+            "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+            "sectors_affected": [], "category": "Markets",
+            "image_keywords": "US stock market finance", "summary_method": "Publisher snippet (AI unavailable)",
+        })
+    overview = "Today's market-relevant headlines are listed below. AI summarization was unavailable, so publisher-provided snippets are shown without adding unsupported analysis."
+    return {"market_overview": overview, "stories": stories, "ai_provider": "fallback"}
+
+
+def normalize_result(raw, articles, provider):
+    by_id = {a["article_id"]: a for a in articles}
+    clean_stories, used = [], set()
+    for item in raw.get("stories", []) if isinstance(raw.get("stories"), list) else []:
+        aid = str(item.get("article_id", ""))
+        if aid not in by_id or aid in used:
+            continue
+        source = by_id[aid]
+        impact = str(item.get("impact_type", "Neutral")).title()
+        if impact not in {"Bullish", "Bearish", "Neutral"}:
+            impact = "Neutral"
+        sectors = item.get("sectors_affected", [])
+        if not isinstance(sectors, list):
+            sectors = []
+        clean_stories.append({
+            "rank": len(clean_stories) + 1,
+            "headline": str(item.get("headline") or source["title"])[:240],
+            "summary": str(item.get("summary") or source["description"])[:900],
+            "source_name": source["source"], "source_url": source["link"],
+            "published_time": source["published_time"],
+            "impact_type": impact,
+            "market_impact": str(item.get("market_impact") or "Market impact is uncertain; review the original source.")[:350],
+            "sectors_affected": [str(s)[:50] for s in sectors[:3]],
+            "category": str(item.get("category") or "Markets")[:60],
+            "image_keywords": str(item.get("image_keywords") or "US stock market finance")[:100],
+            "image": "", "image_credit": "",
+            "summary_method": provider,
+        })
+        used.add(aid)
+        if len(clean_stories) >= MAX_STORIES:
+            break
+    if not clean_stories:
+        return fallback_data(articles)
+    return {
+        "market_overview": str(raw.get("market_overview") or "Market overview unavailable.")[:1200],
+        "stories": clean_stories, "ai_provider": provider,
+    }
+
+
 def summarize_articles(articles, retries=3):
-    """Sends articles to Gemini AI to select, rank, and summarize the top market-moving stories."""
     if not articles:
-        return {"market_overview": "No significant market news found today.", "stories": []}
+        return {"market_overview": "No market-relevant stories were found in the selected time window. Check the source status below.", "stories": [], "ai_provider": "none"}
+    prompt = build_prompt(articles)
+    providers = []
+    if os.getenv("GEMINI_API_KEY"):
+        providers.append(("Gemini", call_gemini))
+    if os.getenv("GROQ_API_KEY"):
+        providers.append(("Groq", call_groq))
 
-    api_key = os.environ.get("GEMINI_API_KEY")
-    # Using the updated gemini-3.8-flash model
-    model_name = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
-
-    if not api_key:
-        raise ValueError("GEMINI_API_KEY is not set in environment variables.")
-
-    client = genai.Client(api_key=api_key)
-
-    articles_text = ""
-    for i, a in enumerate(articles):
-        articles_text += f"[{i}] {a['title']} | Source: {a['source']} | URL: {a['link']} | Time: {a.get('published_time', '')}\nSnippet: {a.get('description', '')}\n\n"
-
-    prompt = f"""
-You are an expert financial analyst. Review the following recent news articles.
-Select the top 15 to 30 most market-moving stories for the US stock market.
-
-Respond STRICTLY with a valid JSON object containing two keys:
-1. "market_overview": A 2-sentence summary of the day's overall news sentiment.
-2. "stories": An array of objects, ranked by importance (1 being most important).
-Each object in "stories" must have:
-- "headline": A punchy, clear title.
-- "summary": A 2-3 sentence explanation of why it matters to markets.
-- "source": The publisher name.
-- "url": The original link.
-
-Articles:
-{articles_text}
-"""
-    
-    for attempt in range(1, retries + 1):
-        logging.info(f"Asking Gemini to summarize (Attempt {attempt}/{retries})...")
-        try:
-            response = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json",
-                    temperature=0.2,
-                ),
-            )
-            return json.loads(response.text)
-        except Exception as e:
-            logging.error(f"Gemini API error: {e}")
-            if attempt < retries:
-                # 503 Error ආවොත් විනාඩි 15ක් (තත්පර 900ක්) රැඳී සිටී
-                if "503" in str(e) or "UNAVAILABLE" in str(e):
-                    logging.info("Server is busy. Waiting 15 minutes before retrying...")
-                    time.sleep(200) 
-                else:
-                    logging.info("Waiting 10 seconds before retrying...")
-                    time.sleep(10)
-            else:
-                logging.error("Max retries reached for Gemini API.")
-                
-    return {"market_overview": "Error generating AI summary.", "stories": []}
+    for provider, function in providers:
+        for attempt in range(1, retries + 1):
+            try:
+                LOG.info("Summarizing with %s (attempt %d/%d)", provider, attempt, retries)
+                return normalize_result(function(prompt), articles, provider)
+            except Exception as exc:
+                LOG.warning("%s failed on attempt %d: %s", provider, attempt, exc)
+                if attempt < retries:
+                    time.sleep(min(15 * attempt, 45))
+    LOG.error("All configured AI providers failed; using publisher snippets")
+    return fallback_data(articles)
