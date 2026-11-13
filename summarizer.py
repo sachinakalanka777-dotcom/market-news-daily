@@ -58,7 +58,7 @@ Articles:
                 # 503 Error ආවොත් විනාඩි 15ක් (තත්පර 900ක්) රැඳී සිටී
                 if "503" in str(e) or "UNAVAILABLE" in str(e):
                     logging.info("Server is busy. Waiting 15 minutes before retrying...")
-                    time.sleep(900) 
+                    time.sleep(200) 
                 else:
                     logging.info("Waiting 10 seconds before retrying...")
                     time.sleep(10)
