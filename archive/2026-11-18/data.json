@@ -1,322 +1,232 @@
 {
-  "market_overview": "U.S. stocks experienced broad downward pressure as the Dow dropped 700 points amid a tech retreat and hawkish policy signals. Investors are closely monitoring upcoming earnings from Nvidia, high-profile IPO activity, and ongoing concerns regarding tech network vulnerabilities.",
+  "market_overview": "Today's market-relevant headlines are listed below. AI summarization was unavailable, so publisher-provided snippets are shown without adding unsupported analysis.",
   "stories": [
     {
-      "rank": 1,
-      "headline": "Dow falls 700 points as tech shares decline, traders monitor NSA network outage",
-      "summary": "Major U.S. stock averages slumped on Tuesday, with the Dow dropping 700 points amid weakness in technology shares. Investors digested a fresh batch of corporate earnings reports while tracking reports of a network outage.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html",
-      "published_time": "2026-11-17T19:29:08+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Broad stock market sentiment may remain subdued as investors navigate large-cap tech declines and infrastructure disruption concerns.",
-      "sectors_affected": [
-        "Technology",
-        "Financials"
-      ],
-      "category": "Markets",
-      "image_keywords": "stock market trading floor",
-      "image": "https://images.unsplash.com/photo-1761233138997-44d9b002a08f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8c3RvY2slMjBtYXJrZXQlMjB0cmFkaW5nJTIwZmxvb3J8ZW58MHwwfHx8MTc5NDk0MzkyMHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Maxim Klimashin on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@maxim_klimashin?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Maxim Klimashin</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 2,
-      "headline": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
-      "summary": "St. Louis Federal Reserve President Musalem signaled that up to four additional interest rate increases might be required in the months ahead. This forecast stands out as one of the most hawkish rate projections among central bank policymakers.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
-      "published_time": "2026-11-17T13:40:54+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Expectations of additional monetary tightening could place upward pressure on Treasury yields and weigh on equity valuations.",
-      "sectors_affected": [
-        "Financials",
-        "Technology",
-        "Real Estate"
-      ],
-      "category": "Federal Reserve",
-      "image_keywords": "federal reserve interest rates",
-      "image": "https://images.unsplash.com/photo-1579758270512-789b1b701bf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8ZmVkZXJhbCUyMHJlc2VydmUlMjBpbnRlcmVzdCUyMHJhdGVzfGVufDB8MHx8fDE3OTQ5NDM5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Joshua Hoehne on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@joshua_hoehne?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Joshua Hoehne</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 3,
+      "article_id": "a0",
       "headline": "Bonds are causing trouble again — here's where to invest now",
-      "summary": "A combination of rising bond yields and ongoing Federal Reserve rate hikes continues to create a challenging climate for fixed-income assets. Market participants are adjusting portfolios to navigate the volatile interest rate environment.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/17/bond-yields-where-to-invest.html",
-      "published_time": "2026-11-17T19:01:14+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Elevated bond yields may compete with equities for capital while driving borrowing costs higher across sectors.",
-      "sectors_affected": [
-        "Fixed Income",
-        "Financials"
-      ],
-      "category": "Economy",
-      "image_keywords": "bond market yields",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8Ym9uZCUyMG1hcmtldCUyMHlpZWxkc3xlbnwwfDB8fHwxNzk0OTQzOTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Maxim Hopman on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@nampoh?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Maxim Hopman</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 4,
-      "headline": "Nvidia stock falls ahead of earnings as company reels from Huang resignation",
-      "summary": "Nvidia shares dropped heading into its scheduled third-quarter financial results. The market continues to absorb the impact of former Chief Executive Jensen Huang's recent resignation.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html",
-      "published_time": "2026-11-17T16:49:12+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Uncertainty surrounding leadership transitions at a leading chipmaker could heighten volatility across semiconductor equities.",
-      "sectors_affected": [
-        "Semiconductors",
-        "Technology"
-      ],
-      "category": "Earnings",
-      "image_keywords": "semiconductor technology chip",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8c2VtaWNvbmR1Y3RvciUyMHRlY2hub2xvZ3klMjBjaGlwfGVufDB8MHx8fDE3OTQ5NDM5MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Adi Goldstein on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@adigold1?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Adi Goldstein</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 5,
-      "headline": "Anthropic likely to price IPO above current range of $70 to $78",
-      "summary": "Artificial intelligence startup Anthropic is reportedly poised to price its initial public offering above its projected range of $70 to $78 per share. The company is scheduled to list on the Nasdaq under the ticker symbol ANT.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
-      "published_time": "2026-11-17T14:34:48+00:00",
-      "impact_type": "Bullish",
-      "market_impact": "Strong investor demand for the new listing could provide support for artificial intelligence and broader tech sentiment.",
-      "sectors_affected": [
-        "Technology",
-        "Artificial Intelligence"
-      ],
-      "category": "Technology",
-      "image_keywords": "nasdaq initial public offering",
-      "image": "https://images.unsplash.com/photo-1594277427579-48d09e82cef0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8bmFzZGFxJTIwaW5pdGlhbCUyMHB1YmxpYyUyMG9mZmVyaW5nfGVufDB8MHx8fDE3OTQ5NDM5MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Nicol on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@nicoljiang?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Nicol</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 6,
-      "headline": "Why Salesforce’s stock is leading S&P 500 decliners amid tech jitters",
-      "summary": "Salesforce shares paced decliners in the S&P 500 amid broad technology sector weakness. Market unease was stoked by a series of tech outages that prompted concerns over software firms' potential vulnerabilities to AI misuse.",
-      "source_name": "MarketWatch Top Stories",
-      "source_url": "https://www.marketwatch.com/story/why-salesforces-stock-is-leading-s-p-500-decliners-amid-tech-jitters-17510caf?mod=mw_rss_topstories",
-      "published_time": "2026-11-17T17:36:00+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Software valuations could face pressure if concerns regarding system vulnerabilities and AI risks expand.",
-      "sectors_affected": [
-        "Software",
-        "Technology"
-      ],
-      "category": "Technology",
-      "image_keywords": "software cloud technology",
-      "image": "https://images.unsplash.com/photo-1667984390538-3dea7a3fe33d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8c29mdHdhcmUlMjBjbG91ZCUyMHRlY2hub2xvZ3l8ZW58MHwwfHx8MTc5NDk0MzkyMnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Growtika on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@growtika?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Growtika</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 7,
-      "headline": "The latest tech failure: U.S. classified national security communications network",
-      "summary": "A reported outage affecting a classified U.S. government communications network has added to a wave of recent tech disruptions. The failures have begun to impact commercial enterprises, government operations, and consumer platforms.",
-      "source_name": "MarketWatch Top Stories",
-      "source_url": "https://www.marketwatch.com/story/the-latest-tech-failure-u-s-classified-national-security-communications-network-ad271899?mod=mw_rss_topstories",
-      "published_time": "2026-11-17T17:12:00+00:00",
+      "summary": "Rising bond yields and Federal Reserve rate hikes are making for a tricky environment for bond investors. Here's how to play it.",
       "impact_type": "Neutral",
-      "market_impact": "Disruptions to communications infrastructure may create broader operational uncertainty for enterprise and government technology providers.",
-      "sectors_affected": [
-        "Technology",
-        "Aerospace & Defense"
-      ],
-      "category": "Technology",
-      "image_keywords": "network server security",
-      "image": "https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMHNlcnZlciUyMHNlY3VyaXR5fGVufDB8MHx8fDE3OTQ5NDM5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Scott Rodgerson on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@scottrodgerson?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Scott Rodgerson</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 8,
-      "headline": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
-      "summary": "Home Depot reported quarterly earnings that exceeded analyst forecasts. The home improvement retailer also announced the appointment of Richard McPhail as its new chief executive officer.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html",
-      "published_time": "2026-11-17T15:27:51+00:00",
-      "impact_type": "Bullish",
-      "market_impact": "Stronger-than-expected retail results could offer a positive read on consumer spending resilience.",
-      "sectors_affected": [
-        "Consumer Discretionary",
-        "Retail"
-      ],
-      "category": "Earnings",
-      "image_keywords": "retail store shopping",
-      "image": "https://images.unsplash.com/photo-1743228672550-8b8f22cf0031?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8cmV0YWlsJTIwc3RvcmUlMjBzaG9wcGluZ3xlbnwwfDB8fHwxNzk0OTQzOTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Albert Stoynov on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@albertstoynov?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Albert Stoynov</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 9,
-      "headline": "Investors look to Nvidia's earnings and Anthropic's IPO to refresh the tech rally",
-      "summary": "Equity markets are focusing on Nvidia's upcoming quarterly financial update alongside the debut of Anthropic to potentially reinvigorate technology sector momentum. Analysts see the market setup as a critical test for sustaining recent AI valuations.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/17/nvidia-earnings-anthropic-ipo-tech-rally.html",
-      "published_time": "2026-11-17T13:11:40+00:00",
-      "impact_type": "Neutral",
-      "market_impact": "Market direction will likely hinge on whether upcoming tech events can counter recent selling pressure.",
-      "sectors_affected": [
-        "Technology",
-        "Semiconductors"
-      ],
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
       "category": "Markets",
-      "image_keywords": "stock chart rally",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8c3RvY2slMjBjaGFydCUyMHJhbGx5fGVufDB8MHx8fDE3OTQ5NDM5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Maxim Hopman on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@nampoh?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Maxim Hopman</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
-      "rank": 10,
-      "headline": "OpenAI sued by California over Hugging Face attack",
-      "summary": "California Attorney General Rob Bonta has filed a lawsuit against OpenAI regarding an incident involving Hugging Face. The complaint alleges that the firm's artificial intelligence misled and endangered the public.",
-      "source_name": "BBC Business",
-      "source_url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
-      "published_time": "2026-11-16T23:12:24+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Rising legal scrutiny may introduce regulatory headwinds for emerging artificial intelligence platforms.",
-      "sectors_affected": [
-        "Technology",
-        "Artificial Intelligence"
-      ],
-      "category": "Regulation",
-      "image_keywords": "courtroom gavel legal",
-      "image": "https://images.unsplash.com/photo-1593115057322-e94b77572f20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8Y291cnRyb29tJTIwZ2F2ZWwlMjBsZWdhbHxlbnwwfDB8fHwxNzk0OTQzOTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Tingey Injury Law Firm on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@tingeyinjurylawfirm?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Tingey Injury Law Firm</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 11,
-      "headline": "Charts show investor fears run deeper than stock market decline suggests",
-      "summary": "Currency market movements, notably the Japanese yen strengthening against the Australian dollar, indicate that investors are unwinding risk-tolerant positions. The trend suggests underlying caution extends beyond headline stock indexes.",
-      "source_name": "MarketWatch Top Stories",
-      "source_url": "https://www.marketwatch.com/story/these-charts-show-investor-fears-run-even-deeper-than-the-stock-markets-decline-suggests-924e2647?mod=mw_rss_topstories",
-      "published_time": "2026-11-17T19:22:00+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Continued risk-off repositioning across global assets could constrain near-term equity upside.",
-      "sectors_affected": [
-        "Financials",
-        "Currencies"
-      ],
-      "category": "Markets",
-      "image_keywords": "currency foreign exchange",
-      "image": "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8Y3VycmVuY3klMjBmb3JlaWduJTIwZXhjaGFuZ2V8ZW58MHwwfHx8MTc5NDk0MzkyNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Jason Leung on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@ninjason?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Jason Leung</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 12,
-      "headline": "Nvidia is flashing a warning sign ahead of earnings, but a rebound could be coming",
-      "summary": "A sharp technical sell-off in Nvidia shares has dampened the stock's longer-term chart outlook ahead of its earnings report. However, indicators point to short-term exhaustion that could signal a potential near-term bounce.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/17/nvidia-is-flashing-a-warning-sign-ahead-of-earnings-but-a-rebound-could-be-coming.html",
-      "published_time": "2026-11-17T17:03:16+00:00",
+      "article_id": "a1",
+      "headline": "Wall Street Awaits First Nvidia Earnings Report Without Jensen Huang",
+      "summary": "Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives for the trading day than \"Bloomberg Surveillance.\" (Source: Bloomberg)",
       "impact_type": "Neutral",
-      "market_impact": "Semiconductor trading may exhibit heightened price volatility around Nvidia's earnings release.",
-      "sectors_affected": [
-        "Semiconductors",
-        "Technology"
-      ],
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
       "category": "Markets",
-      "image_keywords": "technical chart analysis",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8dGVjaG5pY2FsJTIwY2hhcnQlMjBhbmFseXNpc3xlbnwwfDB8fHwxNzk0OTQzOTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Maxim Hopman on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@nampoh?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Maxim Hopman</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
-      "rank": 13,
-      "headline": "Lisa Cook lawyer signals Fed governor won't attend Trump committee's hearing",
-      "summary": "An attorney representing Federal Reserve Governor Lisa Cook indicated that she does not plan to attend an upcoming congressional committee hearing. The move reflects growing political tensions surrounding central bank oversight.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/17/lisa-cook-trump-fed-committee-hearing.html",
-      "published_time": "2026-11-17T16:03:38+00:00",
+      "article_id": "a2",
+      "headline": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+      "summary": "Anthropic is slated to list on the Nasdaq under the ticker symbol \"ANT\" and start trading on Nov. 19.",
       "impact_type": "Neutral",
-      "market_impact": "Political friction regarding the Federal Reserve could generate headline noise without immediately altering monetary policy paths.",
-      "sectors_affected": [
-        "Financials"
-      ],
-      "category": "Federal Reserve",
-      "image_keywords": "capitol building government",
-      "image": "https://images.unsplash.com/photo-1520525003249-2b9cdda513bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8Y2FwaXRvbCUyMGJ1aWxkaW5nJTIwZ292ZXJubWVudHxlbnwwfDB8fHwxNzk0OTQzOTI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Louis Velazquez on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@angelvela?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Louis Velazquez</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
+      "category": "Markets",
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
-      "rank": 14,
+      "article_id": "a3",
+      "headline": "Fed's Williams Doesn't See Need for 'Dramatic Action' on Rates",
+      "summary": "Federal Reserve Bank of New York President John Williams says he's seeing drivers pushing up inflation, including AI, but not necessarily a broadening of it at the Axios BFD Annual Summit. (Source: Bloomberg)",
+      "impact_type": "Neutral",
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
+      "category": "Markets",
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "article_id": "a4",
+      "headline": "Goldman Sachs revealed its outlook for 2027. Here’s how much it sees the S&P 500 gaining",
+      "summary": "Chief U.S. equity strategist Ben Snider expects the bull market to continue, even if the advance isn't as explosive as it has been.",
+      "impact_type": "Neutral",
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
+      "category": "Markets",
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "article_id": "a5",
+      "headline": "Dow plunges 1,000 points heading into Nvidia earnings: Live updates",
+      "summary": "Traders on Tuesday reacted to several fresh earnings reports and awaited Nvidia's latest quarterly financial results.",
+      "impact_type": "Neutral",
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
+      "category": "Markets",
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "article_id": "a6",
+      "headline": "CNBC Digital Finance Forum live updates: Wall Street's AI and crypto future",
+      "summary": "Follow CNBC's Digital Finance Forum live for insights from Wall Street leaders on AI agents, cryptocurrency, tokenization and the future of payments.",
+      "impact_type": "Neutral",
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
+      "category": "Markets",
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "article_id": "a7",
+      "headline": "These charts show investor fears run even deeper than the stock market’s decline suggests",
+      "summary": "The yen’s recent strengthening, particularly against the Australian dollar, suggests investors are unwinding risky bets.",
+      "impact_type": "Neutral",
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
+      "category": "Markets",
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "article_id": "a8",
       "headline": "Stocks making the biggest moves Tuesday: Salesforce, Nvidia, SpaceX, Strategy & more",
-      "summary": "Several high-profile tech and growth stocks fluctuated during Tuesday trading, with Nvidia drifting lower ahead of earnings. Investors also tracked significant price moves across companies like Salesforce and SpaceX.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/17/stocks-moving-the-most-today-live-updates.html",
-      "published_time": "2026-11-17T18:24:09+00:00",
+      "summary": "Nvidia slipped Tuesday as traders awaited the company's third-quarter earnings report.",
       "impact_type": "Neutral",
-      "market_impact": "Choppy individual stock action may continue as corporate reports and news developments drive single-name volatility.",
-      "sectors_affected": [
-        "Technology",
-        "Industrials"
-      ],
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
       "category": "Markets",
-      "image_keywords": "wall street ticker",
-      "image": "https://images.unsplash.com/photo-1483129804960-cb1964499894?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8d2FsbCUyMHN0cmVldCUyMHRpY2tlcnxlbnwwfDB8fHwxNzk0OTQzOTI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Chris Li on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@chrisli?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Chris Li</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
-      "rank": 15,
-      "headline": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
-      "summary": "Financial disclosures indicate accounts connected to Donald Trump traded millions in Nvidia shares during a period of White House access for former CEO Jensen Huang. The filings revealed sales occurring shortly after security briefings related to Chinese espionage concerns.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
-      "published_time": "2026-11-17T10:08:32+00:00",
+      "article_id": "a9",
+      "headline": "Investors look to Nvidia's earnings and Anthropic's IPO to refresh the tech rally",
+      "summary": "How the market set-up is more favorable for the Anthropic IPO than the lead-up to SpaceX's debut.",
       "impact_type": "Neutral",
-      "market_impact": "Scrutiny over political connections and national security concerns could affect sentiment around leading chip stocks.",
-      "sectors_affected": [
-        "Semiconductors",
-        "Technology"
-      ],
-      "category": "Technology",
-      "image_keywords": "white house politics",
-      "image": "https://images.unsplash.com/photo-1485394595691-5411947d63a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8d2hpdGUlMjBob3VzZSUyMHBvbGl0aWNzfGVufDB8MHx8fDE3OTQ5NDM5MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by David Everett Strickler on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@mktgmantra?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">David Everett Strickler</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
+      "category": "Markets",
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "article_id": "a10",
+      "headline": "Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Stock",
+      "summary": "Nvidia Corp.’s earnings arrive at perhaps the strangest time possible for the world’s most important artificial intelligence chipmaker.",
+      "impact_type": "Neutral",
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
+      "category": "Markets",
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "article_id": "a11",
+      "headline": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
+      "summary": "“I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”",
+      "impact_type": "Neutral",
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
+      "category": "Markets",
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "article_id": "a12",
+      "headline": "Bank of America Says US Rates Will Rise ‘Until Activity Cools’",
+      "summary": "US short-term interest rates are likely to continue to rise in the absence of signs that they are restraining the American economy, according to interest-rate strategists at Bank of America Corp.",
+      "impact_type": "Neutral",
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
+      "category": "Markets",
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "article_id": "a13",
+      "headline": "Saks, Neiman Marcus Parent Company CEO Says Growth Plan Is on Track",
+      "summary": "Exemplar Luxury Group CEO Geoffroy van Raemdonck says the Saks Fifth Avenue and Neiman Marcus parent company is profitable and aims to grow revenue from $7 billion to $9 billion. He talks about the demand for luxury goods, strengthening relationships with vendors and how the company is preparing for the holiday shopping season. He speaks with Bloomberg’s Romaine Bostick. (Source: Bloomberg)",
+      "impact_type": "Neutral",
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
+      "category": "Markets",
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "article_id": "a14",
+      "headline": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+      "summary": "The forecast represents one of the most hawkish views among policymakers.",
+      "impact_type": "Neutral",
+      "market_impact": "Potential market relevance is based on the headline and publisher snippet; direction is not independently established.",
+      "sectors_affected": [],
+      "category": "Markets",
+      "image_keywords": "US stock market finance",
+      "summary_method": "Publisher snippet (AI unavailable)",
+      "image": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8VVMlMjBzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MHwwfHx8MTc5NDk0NjQzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Markus Spiske on Unsplash",
+      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     }
   ],
-  "ai_provider": "Gemini",
+  "ai_provider": "fallback",
   "date": "2026-11-18",
-  "generated_at_utc": "2026-11-17T19:31:38.438093+00:00",
-  "generated_at_local": "2026-11-18 01:01:38 +0530",
-  "article_count_collected": 19,
+  "generated_at_utc": "2026-11-17T20:08:07.179548+00:00",
+  "generated_at_local": "2026-11-18 01:38:07 +0530",
+  "article_count_collected": 16,
   "feed_status": [
     {
       "source": "BBC Business",
       "status": "ok",
-      "items": 3
+      "items": 0
     },
     {
       "source": "CNBC Top News",
       "status": "ok",
-      "items": 13
+      "items": 8
     },
     {
       "source": "Federal Reserve",
@@ -331,12 +241,17 @@
     {
       "source": "MarketWatch Top Stories",
       "status": "ok",
-      "items": 3
+      "items": 2
     },
     {
-      "source": "Yahoo Finance News",
-      "status": "error",
-      "error": "404 Client Error: Not Found for url: https://finance.yahoo.com/news/rssindex"
+      "source": "Bloomberg Markets",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "source": "Investing.com Markets",
+      "status": "ok",
+      "items": 0
     }
   ]
 }
