@@ -19,7 +19,10 @@ def build_site(data, date_str):
         autoescape=select_autoescape(["html", "xml"]),
     )
     template = env.get_template("index.html")
-    html = template.render(**data, date=date_str)
+    context = dict(data)
+context["date"] = date_str
+
+html = template.render(**context)
     (SITE / "index.html").write_text(html, encoding="utf-8")
 
     # Keep a dated archive page for every successful daily run.
