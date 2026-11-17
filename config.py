@@ -3,12 +3,15 @@ import os
 
 # Official/public RSS feeds.
 # A failed feed will not stop the daily build.
+
 FEEDS = {
     "BBC Business": "https://feeds.bbci.co.uk/news/business/rss.xml",
     "CNBC Top News": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
     "Federal Reserve": "https://www.federalreserve.gov/feeds/press_all.xml",
     "SEC Press Releases": "https://www.sec.gov/news/pressreleases.rss",
     "MarketWatch Top Stories": "https://feeds.marketwatch.com/marketwatch/topstories/",
+    "Bloomberg Markets": "https://www.bloomberg.com/feeds/markets/news.rss",
+    "Investing.com Markets": "https://www.investing.com/rss/news_25.rss",
 }
 
 # Strong indicators of US stock-market relevance.
