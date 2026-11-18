@@ -37,18 +37,19 @@ def main():
     data["feed_status"] = feed_status
 
     if not args.skip_images:
-        for story in data.get("stories", []):
-            image = get_image_for_story(story.get("image_keywords", "US stock market finance"))
-            story["image"] = image["url"]
-            story["image_credit"] = image["credit"]
-            story["image_credit_html"] = image.get("credit_html", image["credit"])
+        used_image_urls = set()
 
+        for story in data.get("stories", []):
+            image = get_image_for_story(story, used_image_urls)
+
+            if image:
+                story["image"] = image["url"]
+                story["image_credit"] = image["credit"]
+                story["image_credit_html"] = image["credit_html"]
+            else:
+                story["image"] = None
+                story["image_credit"] = ""
+                story["image_credit_html"] = ""
     if args.dry_run:
         print(json.dumps(data, indent=2, ensure_ascii=False))
         return
-
-    build_site(data, date_str)
-    LOG.info("Pipeline completed: %d stories, AI provider=%s", len(data.get("stories", [])), data.get("ai_provider"))
-
-if __name__ == "__main__":
-    main()
