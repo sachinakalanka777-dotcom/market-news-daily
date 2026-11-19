@@ -1,249 +1,246 @@
 {
-  "market_overview": "US equity markets slumped, with the Dow Jones diving 900 points and extending losses to a sixth consecutive session amid profit-taking following Anthropic's historic market debut. At the same time, pressure continued across asset classes like gold and foreign currencies amid expectations of elevated Federal Reserve interest rates.",
+  "market_overview": "US equity benchmarks declined broadly, with the Dow Jones dropping roughly 1,000 points and major indexes extending losses to a sixth consecutive session. Market sentiment was weighed down by profit-taking around Anthropic's landmark IPO alongside Federal Reserve commentary emphasizing persistent inflation pressures.",
   "stories": [
     {
       "rank": 1,
-      "headline": "Dow Plunges 900 Points as Investors Take Profits Following Anthropic Listing",
-      "summary": "The Dow Jones Industrial Average dropped 900 points as market participants engaged in profit-taking tied to Anthropic's public debut on the Nasdaq. Traders focused heavily on the trading performance of the newly listed AI company.",
+      "headline": "Dow Dives 1,000 Points Amid Profit-Taking Tied to Anthropic Debut",
+      "summary": "The Dow Jones Industrial Average dropped 1,000 points as market participants took profits during Anthropic's initial public offering on the Nasdaq. Equity indexes extended declines as trading focused on market absorption of the massive offering.",
       "source_name": "CNBC Top News",
       "source_url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
-      "published_time": "2026-11-19T19:18:40+00:00",
+      "published_time": "2026-11-19T20:13:17+00:00",
       "impact_type": "Bearish",
-      "market_impact": "Broad market sentiment may face ongoing pressure if profit-taking accelerates across major US equity benchmarks.",
+      "market_impact": "Profit-taking linked to major tech liquidity events may weigh on broader market sentiment.",
       "sectors_affected": [
         "Technology",
         "Financials"
       ],
       "category": "Markets",
-      "image_keywords": "['stock chart', 'trading floor', 'selloff']",
-      "image": null,
-      "image_credit": "",
+      "image_keywords": "['stock market floor', 'trading screens']",
+      "image": "https://images.unsplash.com/photo-1642239817349-3e1cf98817a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTl8fERpdmVzJTIwUG9pbnRzJTIwQW1pZCUyMFByb2ZpdHxlbnwxfDB8fHwxNzk1MTE5NDY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Shubham Dhage on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": ""
+      "image_credit_html": "<a href=\"https://unsplash.com/@theshubhamdhage?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Shubham Dhage</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 2,
-      "headline": "Anthropic Reaches $2 Trillion Valuation in Historic Nasdaq Debut",
-      "summary": "Artificial intelligence lab Anthropic saw its market capitalization surpass $2 trillion following its record initial public offering. The Claude maker began trading on the Nasdaq under the ticker symbol ANT.",
+      "headline": "Fed Governor Barr Warns Further Policy Adjustments Needed to Curb Inflation",
+      "summary": "Federal Reserve Governor Michael Barr stated at an AI symposium that inflation remains too elevated. He noted that monetary policy must be adjusted further in order to properly balance macroeconomic risks.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2026-11-19/fed-s-barr-says-inflation-calls-for-policy-adjustment-video",
+      "published_time": "2026-11-19T19:59:01+00:00",
+      "impact_type": "Bearish",
+      "market_impact": "Expectations of prolonged monetary tightening could dampen investor appetite for equities.",
+      "sectors_affected": [
+        "Financials",
+        "Technology"
+      ],
+      "category": "Federal Reserve",
+      "image_keywords": "['Federal Reserve', 'interest rates']",
+      "image": "https://images.unsplash.com/photo-1668199837817-f61008f79644?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTJ8fCU1QiUyN0ZlZGVyYWwlMjBSZXNlcnZlJTI3JTJDJTIwJTI3aW50ZXJlc3QlMjByYXRlcyUyNyU1RHxlbnwxfDB8fHwxNzk1MTE5NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Andrew Dawes on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@9andrewd?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Andrew Dawes</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 3,
+      "headline": "Anthropic Reaches $2 Trillion Valuation Following Nasdaq Public Debut",
+      "summary": "AI research lab Anthropic debuted on the Nasdaq under ticker ANT, achieving a valuation above $2 trillion. The landmark offering set record capital levels as investors assessed initial public trading in the Claude AI developer.",
       "source_name": "CNBC Top News",
       "source_url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
-      "published_time": "2026-11-19T19:31:50+00:00",
-      "impact_type": "Bullish",
-      "market_impact": "High investor demand for large-scale AI listings could bolster sentiment across mega-cap technology names.",
+      "published_time": "2026-11-19T20:06:32+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "The historic offering highlights substantial investor interest in artificial intelligence despite wider market declines.",
       "sectors_affected": [
         "Technology"
       ],
       "category": "Technology",
-      "image_keywords": "['artificial intelligence', 'nasdaq bell', 'market cap']",
-      "image": null,
-      "image_credit": "",
+      "image_keywords": "['Nasdaq debut', 'artificial intelligence']",
+      "image": "https://images.unsplash.com/photo-1692607431225-5f4564c8f132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTl8fCU1QiUyN05hc2RhcSUyMGRlYnV0JTI3JTJDJTIwJTI3YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyNyU1RHxlbnwxfDB8fHwxNzk1MTE5NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Google DeepMind on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": ""
+      "image_credit_html": "<a href=\"https://unsplash.com/@googledeepmind?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Google DeepMind</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
-      "rank": 3,
-      "headline": "US Equities Decline for Sixth Session as Tech Momentum Fades",
-      "summary": "Major US stock indexes declined for a sixth consecutive trading day, placing the Dow Jones Index near correction territory. An earlier rally in technology equities faded in the wake of Anthropic's public market debut.",
+      "rank": 4,
+      "headline": "US Equities Fall for Sixth Straight Day as Tech Rally Weakens",
+      "summary": "Major US stock indexes extended their downward streak to six consecutive sessions as an initial rally in technology shares faded after Anthropic's debut. The Dow Jones index moved closer to correction territory during the broad market retreat.",
       "source_name": "Bloomberg Markets",
       "source_url": "https://www.bloomberg.com/news/articles/2026-11-19/us-stock-futures-jump-on-blockbuster-reception-to-anthropic-ipo",
       "published_time": "2026-11-19T07:09:16+00:00",
       "impact_type": "Bearish",
-      "market_impact": "Persistent index declines could heighten caution among institutional investors and weigh on broader equity valuations.",
+      "market_impact": "Extended market declines across consecutive sessions may signal sustained near-term volatility.",
       "sectors_affected": [
-        "Technology",
-        "Financials",
-        "Industrials"
+        "Technology"
       ],
       "category": "Markets",
-      "image_keywords": "['bear market', 'stock exchange', 'dow jones']",
-      "image": "https://images.unsplash.com/photo-1597469935565-746e2dda027c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTR8fCU1QiUyN2JlYXIlMjBtYXJrZXQlMjclMkMlMjAlMjdzdG9jayUyMGV4Y2hhbmdlJTI3JTJDJTIwJTI3ZG93JTIwam9uZXMlMjclNUQlMjBVUyUyMEVxdWl0aWVzJTIwRGVjbGluZSUyMGZvciUyMFNpeHRoJTIwU2Vzc2lvbiUyMGFzJTIwVGVjaCUyME1vbWVudHVtJTIwRmFkZXMlMjBNYXJrZXRzJTIwZmluYW5jZSUyMGJ1c2luZXNzfGVufDB8MHx8fDE3OTUxMTcyODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Juan Pablo Mascanfroni on Unsplash",
+      "image_keywords": "['stock chart', 'market drop']",
+      "image": "https://images.unsplash.com/photo-1605512929726-8c542ede9c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjJ8fCU1QiUyN3N0b2NrJTIwY2hhcnQlMjclMkMlMjAlMjdtYXJrZXQlMjBkcm9wJTI3JTVEfGVufDF8MHx8fDE3OTUxMTk0Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Infrarate.com on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@juanmascan1978?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Juan Pablo Mascanfroni</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 4,
-      "headline": "Anthropic Shares Advance 17% in Record $107.3 Billion Public Debut",
-      "summary": "Anthropic shares traded 17% above their offering price after paring earlier gains during their initial session. The artificial intelligence firm raised $107.3 billion, surpassing SpaceX's previous record for the largest offering.",
-      "source_name": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-poised-to-surge-after-107-3-billion-ipo-tops-spacex",
-      "published_time": "2026-11-19T14:52:54+00:00",
-      "impact_type": "Bullish",
-      "market_impact": "The record-sized listing may encourage additional capital market activity and private tech liquidity events.",
-      "sectors_affected": [
-        "Technology",
-        "Financials"
-      ],
-      "category": "Markets",
-      "image_keywords": "['stock ticker', 'ipo launch', 'technology']",
-      "image": null,
-      "image_credit": "",
-      "summary_method": "Gemini",
-      "image_credit_html": ""
+      "image_credit_html": "<a href=\"https://unsplash.com/@infrarate?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Infrarate.com</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 5,
-      "headline": "Mexican Peso Slides Past 19 per Dollar on Monetary Policy Divergence",
-      "summary": "The Mexican peso fell past 19 per dollar to reach its lowest level in over twelve months. The decline was driven by Mexico's dovish central bank stance alongside expectations of further interest-rate hikes from the US Federal Reserve.",
-      "source_name": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-11-19/mexican-peso-hits-17-month-low-as-fed-outlook-rattles-markets",
-      "published_time": "2026-11-19T15:34:06+00:00",
-      "impact_type": "Neutral",
-      "market_impact": "Diverging monetary policy and currency volatility could affect multinational corporations with emerging-market exposure.",
-      "sectors_affected": [
-        "Financials"
-      ],
-      "category": "Economy",
-      "image_keywords": "['currency exchange', 'mexican peso', 'dollar']",
-      "image": "https://images.unsplash.com/photo-1793267933497-86a1bb2c61f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8JTVCJTI3Y3VycmVuY3klMjBleGNoYW5nZSUyNyUyQyUyMCUyN21leGljYW4lMjBwZXNvJTI3JTJDJTIwJTI3ZG9sbGFyJTI3JTVEJTIwTWV4aWNhbiUyMFBlc28lMjBTbGlkZXMlMjBQYXN0JTIwMTklMjBwZXIlMjBEb2xsYXIlMjBvbiUyME1vbmV0YXJ5JTIwUG9saWN5JTIwRGl2ZXJnZW5jZSUyMEVjb25vbXklMjBmaW5hbmNlJTIwYnVzaW5lc3N8ZW58MHwwfHx8MTc5NTExNzI4OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Belladonna on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@belladonna8?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Belladonna</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 6,
-      "headline": "Sanofi Explores Potential Acquisition of US Drugmaker Insmed",
-      "summary": "French pharmaceutical giant Sanofi is evaluating a takeover of US-based drug developer Insmed. The potential acquisition comes as the firm's leadership seeks to expand its portfolio with new treatments.",
-      "source_name": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-11-19/sanofi-weighs-takeover-of-us-drugmaker-insmed",
-      "published_time": "2026-11-19T15:05:37+00:00",
+      "headline": "Anthropic Raises $81 Billion in Historic Stock Market Listing",
+      "summary": "Anthropic raised $81 billion in its public debut, establishing one of the largest market debuts on record. The capital raised positions the developer of the Claude chatbot among the most valuable companies globally.",
+      "source_name": "BBC Business",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "published_time": "2026-11-19T15:58:58+00:00",
       "impact_type": "Bullish",
-      "market_impact": "Reports of buyout interest could stimulate trading activity across the US biotechnology and pharmaceutical sectors.",
+      "market_impact": "Substantial capital deployment into premier AI listings demonstrates underlying institutional demand.",
       "sectors_affected": [
-        "Healthcare"
-      ],
-      "category": "Markets",
-      "image_keywords": "['pharmaceutical', 'biotech laboratory', 'merger']",
-      "image": null,
-      "image_credit": "",
-      "summary_method": "Gemini",
-      "image_credit_html": ""
-    },
-    {
-      "rank": 7,
-      "headline": "Gold Prices Extend Decline Amid Dollar Strength and High Rates",
-      "summary": "Gold prices continued to retreat significantly from records established in January. The precious metal has faced downward pressure due to elevated interest rates and a stronger US dollar.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
-      "published_time": "2026-11-19T16:29:52+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Weakening precious metals prices could weigh on commodity funds and gold mining equities.",
-      "sectors_affected": [
-        "Commodities",
-        "Materials"
-      ],
-      "category": "Commodities",
-      "image_keywords": "['gold bars', 'precious metals', 'dollar sign']",
-      "image": "https://images.unsplash.com/photo-1624365168785-c65be9114821?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8NXx8JTVCJTI3Z29sZCUyMGJhcnMlMjclMkMlMjAlMjdwcmVjaW91cyUyMG1ldGFscyUyNyUyQyUyMCUyN2RvbGxhciUyMHNpZ24lMjclNUQlMjBHb2xkJTIwUHJpY2VzJTIwRXh0ZW5kJTIwRGVjbGluZSUyMEFtaWQlMjBEb2xsYXIlMjBTdHJlbmd0aCUyMGFuZCUyMEhpZ2glMjBSYXRlcyUyMENvbW1vZGl0aWVzJTIwZmluYW5jZSUyMGJ1c2luZXNzfGVufDB8MHx8fDE3OTUxMTcyOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Zlaťáky.cz on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@zlataky?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Zlaťáky.cz</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 8,
-      "headline": "Blue Owl Prepares $513 Million CMBS to Finance Amazon Data Center",
-      "summary": "Blue Owl Capital is planning to issue $513 million in commercial mortgage-backed securities to finance a data center acquisition. The facility, located in Northern Virginia, is fully leased to Amazon.",
-      "source_name": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-11-19/blue-owl-plans-513-million-cmbs-for-amazon-leased-data-center",
-      "published_time": "2026-11-19T00:54:52+00:00",
-      "impact_type": "Neutral",
-      "market_impact": "The debt issuance illustrates continued structured financing activity supporting large-scale cloud infrastructure assets.",
-      "sectors_affected": [
-        "Real Estate",
         "Technology",
         "Financials"
       ],
       "category": "Technology",
-      "image_keywords": "['data center', 'commercial real estate', 'servers']",
-      "image": null,
-      "image_credit": "",
+      "image_keywords": "['IPO listing', 'trading desk']",
+      "image": "https://images.unsplash.com/photo-1639754390580-2e7437267698?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8OXx8JTVCJTI3SVBPJTIwbGlzdGluZyUyNyUyQyUyMCUyN3RyYWRpbmclMjBkZXNrJTI3JTVEfGVufDF8MHx8fDE3OTUxMTk0Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Behnam Norouzi on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": ""
+      "image_credit_html": "<a href=\"https://unsplash.com/@behy_studio?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Behnam Norouzi</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
-      "rank": 9,
-      "headline": "Kraken Parent Acquires Tribe Capital to Broaden Private Markets Reach",
-      "summary": "Payward, the parent company of cryptocurrency exchange Kraken, has acquired venture capital firm Tribe Capital. The deal marks an expansion by the digital-asset firm into private asset management.",
+      "rank": 6,
+      "headline": "Brokerages Impose Restrictions on Quick Flipping of Anthropic Shares",
+      "summary": "Brokerage firms are warning retail investors that quickly selling Anthropic shares post-debut may trigger trading penalties. Firms may implement restrictions on future IPO participation for accounts that immediately flip allocated shares.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html",
+      "published_time": "2026-11-19T16:31:23+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "Trading penalties could temper post-debut volatility and limit speculative secondary turnover.",
+      "sectors_affected": [
+        "Financials"
+      ],
+      "category": "Regulation",
+      "image_keywords": "['brokerage trading', 'finance computer']",
+      "image": "https://images.unsplash.com/photo-1634542984003-e0fb8e200e91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MzB8fCU1QiUyN2Jyb2tlcmFnZSUyMHRyYWRpbmclMjclMkMlMjAlMjdmaW5hbmNlJTIwY29tcHV0ZXIlMjclNUR8ZW58MXwwfHx8MTc5NTExOTQ2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by rc.xyz NFT gallery on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@moneyphotos?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">rc.xyz NFT gallery</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 7,
+      "headline": "Copper Stabilizes Following Sharp Slide Driven by AI and Tariff Unwinding",
+      "summary": "Copper prices rebounded modestly after declining nearly 6% in the previous session, marking its steepest one-day drop since April 2025. The selloff was driven by traders exiting bullish positions tied to artificial intelligence expansion and US trade tariffs.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-19/copper-rebounds-after-rout-as-physical-tightness-persists",
+      "published_time": "2026-11-19T01:14:36+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "Commodity price adjustments reflect shifting expectations around industrial AI demand and tariff policy.",
+      "sectors_affected": [
+        "Basic Materials",
+        "Technology"
+      ],
+      "category": "Commodities",
+      "image_keywords": "['copper metal', 'commodity exchange']",
+      "image": "https://images.unsplash.com/photo-1707733155478-6a2979984ecc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mnx8JTVCJTI3Y29wcGVyJTIwbWV0YWwlMjclMkMlMjAlMjdjb21tb2RpdHklMjBleGNoYW5nZSUyNyU1RHxlbnwxfDB8fHwxNzk1MTE5NDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by John Vid on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@vanvid?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">John Vid</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 8,
+      "headline": "Kraken Owner Payward Acquires Tribe Capital to Broaden Private Market Reach",
+      "summary": "Payward, the parent company of cryptocurrency exchange Kraken, announced the acquisition of Tribe Capital. The transaction expands the digital asset platform into private market asset management and venture capital services.",
       "source_name": "CNBC Top News",
       "source_url": "https://www.cnbc.com/2026/11/19/acquisition-of-tribe-capital-flags-new-chapter-in-evolution-of-crypto-exchanges.html",
       "published_time": "2026-11-19T19:06:50+00:00",
       "impact_type": "Neutral",
-      "market_impact": "The acquisition may signal broader convergence between cryptocurrency platforms and traditional venture asset managers.",
+      "market_impact": "The deal signals continued convergence between digital asset platforms and traditional private equity management.",
       "sectors_affected": [
         "Financials",
         "Technology"
       ],
       "category": "Banking",
-      "image_keywords": "['cryptocurrency', 'venture capital', 'digital assets']",
-      "image": null,
-      "image_credit": "",
+      "image_keywords": "['cryptocurrency exchange', 'mergers acquisitions']",
+      "image": "https://images.unsplash.com/photo-1629788963769-744a4bf98a5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MzB8fCU1QiUyN2NyeXB0b2N1cnJlbmN5JTIwZXhjaGFuZ2UlMjclMkMlMjAlMjdtZXJnZXJzJTIwYWNxdWlzaXRpb25zJTI3JTVEfGVufDF8MHx8fDE3OTUxMTk0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Kanchanara on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": ""
+      "image_credit_html": "<a href=\"https://unsplash.com/@kanchanara?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Kanchanara</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 9,
+      "headline": "Gold Slips Further as Higher Interest Rates and Dollar Weigh on Bullion",
+      "summary": "Gold prices continue to retreat from their January peak under pressure from elevated interest rates and a stronger US dollar. The persistent monetary headwinds have reduced the relative investment appeal of non-yielding assets.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
+      "published_time": "2026-11-19T16:29:52+00:00",
+      "impact_type": "Bearish",
+      "market_impact": "Sustained gold declines reflect persistent rate expectations and dollar strength across asset markets.",
+      "sectors_affected": [
+        "Basic Materials"
+      ],
+      "category": "Commodities",
+      "image_keywords": "['gold bars', 'currency strength']",
+      "image": "https://images.unsplash.com/photo-1762463176319-8416bf1e6a8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjJ8fCU1QiUyN2dvbGQlMjBiYXJzJTI3JTJDJTIwJTI3Y3VycmVuY3klMjBzdHJlbmd0aCUyNyU1RHxlbnwxfDB8fHwxNzk1MTE5NDcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Scottsdale Mint on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@scottsdalemint?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Scottsdale Mint</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 10,
-      "headline": "SEC Charges Eight Entities in $37 Million Fake Crypto Platform Scheme",
-      "summary": "The US Securities and Exchange Commission charged eight Colorado-based entities accused of defrauding US investors of more than $37 million. Regulators stated the operations used fraudulent trading platforms and were likely operated from overseas.",
+      "headline": "SEC Charges Eight Entities in $37 Million Fraud Involving Fake Crypto Platforms",
+      "summary": "The Securities and Exchange Commission filed charges against eight Colorado-registered entities operated overseas for defrauding US investors of more than $37 million. Regulators stated the defendants deceived victims using fraudulent crypto asset trading platforms.",
       "source_name": "SEC Press Releases",
       "source_url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
       "published_time": "2026-11-19T14:39:02+00:00",
       "impact_type": "Neutral",
-      "market_impact": "Ongoing enforcement actions highlight elevated regulatory scrutiny within retail-oriented digital asset platforms.",
+      "market_impact": "Ongoing enforcement actions highlight elevated regulatory scrutiny across retail digital asset platforms.",
       "sectors_affected": [
         "Financials"
       ],
       "category": "Regulation",
-      "image_keywords": "['sec seal', 'regulatory enforcement', 'court gavel']",
-      "image": "https://images.unsplash.com/photo-1641197408799-262f1f343cc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjJ8fCU1QiUyN3NlYyUyMHNlYWwlMjclMkMlMjAlMjdyZWd1bGF0b3J5JTIwZW5mb3JjZW1lbnQlMjclMkMlMjAlMjdjb3VydCUyMGdhdmVsJTI3JTVEJTIwU0VDJTIwQ2hhcmdlcyUyMEVpZ2h0JTIwRW50aXRpZXMlMjBpbiUyMCUyNDM3JTIwTWlsbGlvbiUyMEZha2UlMjBDcnlwdG8lMjBQbGF0Zm9ybSUyMFNjaGVtZSUyMFJlZ3VsYXRpb24lMjBmaW5hbmNlJTIwYnVzaW5lc3N8ZW58MHwwfHx8MTc5NTExNzI5MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Traxer on Unsplash",
+      "image_keywords": "['SEC seal', 'courtroom gavel']",
+      "image": "https://images.unsplash.com/photo-1669219801545-3c73b2aa23cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTF8fENoYXJnZXMlMjBFaWdodCUyMEVudGl0aWVzJTIwTWlsbGlvbnxlbnwxfDB8fHwxNzk1MTE5NDcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Mariia Berezovsky on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@traxer?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Traxer</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@mariiaberezovsky?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Mariia Berezovsky</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 11,
-      "headline": "AppLovin Drawdown Contrasts With Accelerating Revenue and E-Commerce Push",
-      "summary": "Shares of AppLovin have dropped by nearly 50% this year despite accelerating revenue growth. Market observers note the company's expansion into AI-driven advertising and e-commerce positions it for potential growth.",
+      "headline": "AppLovin Drawdown Draws Analyst Interest Amid Ad Tech Expansion",
+      "summary": "Shares of AppLovin have dropped nearly 50% year-to-date despite analyst focus on its revenue acceleration. Analyst Paul Meeks highlighted the AI advertising firm's ongoing expansion into e-commerce as a potential growth driver.",
       "source_name": "CNBC Top News",
       "source_url": "https://www.cnbc.com/2026/11/19/applovin-app-paul-meeks-buying.html",
       "published_time": "2026-11-19T19:08:20+00:00",
       "impact_type": "Neutral",
-      "market_impact": "Diverging views on ad-tech fundamentals could lead to continued share price volatility for the stock.",
+      "market_impact": "Diverging analyst views emphasize ongoing valuation debates among mid-cap AI software providers.",
       "sectors_affected": [
         "Technology",
         "Communication Services"
       ],
       "category": "Technology",
-      "image_keywords": "['mobile advertising', 'digital marketing', 'app analytics']",
-      "image": null,
-      "image_credit": "",
+      "image_keywords": "['advertising technology', 'financial charts']",
+      "image": "https://images.unsplash.com/photo-1711097383282-28097ae16b1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8M3x8JTVCJTI3YWR2ZXJ0aXNpbmclMjB0ZWNobm9sb2d5JTI3JTJDJTIwJTI3ZmluYW5jaWFsJTIwY2hhcnRzJTI3JTVEfGVufDF8MHx8fDE3OTUxMTk0NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Jakub Żerdzicki on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": ""
+      "image_credit_html": "<a href=\"https://unsplash.com/@jakubzerdzicki?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Jakub Żerdzicki</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 12,
-      "headline": "Brokerages Weigh Restrictions for Investors Flipping Anthropic Shares",
-      "summary": "Brokerage firms are warning clients that selling Anthropic shares quickly could result in restrictions on future IPO allocations. Flipping penalties are commonly utilized to reduce immediate post-debut turnover.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html",
-      "published_time": "2026-11-19T16:31:23+00:00",
+      "headline": "Federal Reserve Publishes October FOMC Meeting Minutes",
+      "summary": "The Federal Reserve released the official minutes from the Federal Open Market Committee meeting held October 27-28, 2026. The documentation provides official records regarding committee discussions on macroeconomic conditions and policy settings.",
+      "source_name": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "published_time": "2026-11-18T19:00:00+00:00",
       "impact_type": "Neutral",
-      "market_impact": "Trading restrictions could dampen retail secondary turnover during high-profile tech offerings.",
+      "market_impact": "Investors monitor FOMC minutes for technical details regarding policy consensus and economic projections.",
       "sectors_affected": [
         "Financials"
       ],
-      "category": "Regulation",
-      "image_keywords": "['brokerage app', 'trading compliance', 'investor']",
-      "image": null,
-      "image_credit": "",
+      "category": "Federal Reserve",
+      "image_keywords": "['FOMC document', 'central bank']",
+      "image": "https://images.unsplash.com/photo-1641931191943-83950ca8bccd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTh8fCU1QiUyN0ZPTUMlMjBkb2N1bWVudCUyNyUyQyUyMCUyN2NlbnRyYWwlMjBiYW5rJTI3JTVEfGVufDF8MHx8fDE3OTUxMTk0NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by PiggyBank on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": ""
+      "image_credit_html": "<a href=\"https://unsplash.com/@piggybank?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">PiggyBank</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     }
   ],
   "ai_provider": "Gemini",
   "date": "2026-11-20",
-  "generated_at_utc": "2026-11-19T19:35:45.676924+00:00",
-  "generated_at_local": "2026-11-20 01:05:45 +0530",
-  "article_count_collected": 28,
+  "generated_at_utc": "2026-11-19T20:17:00.485714+00:00",
+  "generated_at_local": "2026-11-20 01:47:00 +0530",
+  "article_count_collected": 27,
   "feed_status": [
     {
       "source": "BBC Business",
@@ -273,12 +270,12 @@
     {
       "source": "Bloomberg Markets",
       "status": "ok",
-      "items": 10
+      "items": 8
     },
     {
       "source": "Investing.com Markets",
       "status": "ok",
-      "items": 0
+      "items": 1
     }
   ]
 }
