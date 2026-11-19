@@ -53,3 +53,8 @@ def main():
     if args.dry_run:
         print(json.dumps(data, indent=2, ensure_ascii=False))
         return
+    build_site(data, date_str)
+    LOG.info("MarketPulse website generated successfully.")
+
+if __name__ == "__main__":
+    main()
