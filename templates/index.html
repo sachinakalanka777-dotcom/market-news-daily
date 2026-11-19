@@ -14,7 +14,15 @@
   <div class="section-heading"><div><div class="section-kicker">WHAT MATTERS TODAY</div><h2>Top Market Drivers</h2></div><a href="archive/index.html" class="text-link">View archive →</a></div>
   {% if stories %}<section class="stories-grid">
   {% for story in stories %}<article class="story-card">
-    <div class="image-wrap"><img src="{{ story.image or 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1000&q=80' }}" alt="{{ story.headline }}" loading="lazy"><span class="rank">#{{ story.rank }}</span><span class="category">{{ story.category }}</span></div>
+    <div class="image-wrap">
+  {% if story.image %}
+    <img src="{{ story.image }}" alt="{{ story.headline }}" loading="lazy">
+  {% else %}
+    <div class="image-placeholder">Image unavailable</div>
+  {% endif %}
+  <span class="rank">#{{ story.rank }}</span>
+  <span class="category">{{ story.category }}</span>
+</div>
     <div class="card-content"><div class="tags"><span class="impact {{ story.impact_type|lower }}">{{ story.impact_type }}</span>{% for sector in story.sectors_affected %}<span class="tag">{{ sector }}</span>{% endfor %}</div>
       <h3>{{ story.headline }}</h3><p class="summary">{{ story.summary }}</p><div class="outlook"><b>Market perspective</b><br>{{ story.market_impact }}</div>
       <div class="card-bottom"><span>{{ story.source_name }}{% if story.published_time and story.published_time != 'Date not supplied by source' %} · {{ story.published_time[:16].replace('T',' ') }} UTC{% endif %}</span><a href="{{ story.source_url }}" target="_blank" rel="noopener noreferrer">Original report ↗</a></div>
