@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,6 +6,15 @@
   <meta name="description" content="Daily concise news briefing focused on factors that may affect US stock markets.">
   <title>MarketPulse News | US Market Daily Brief - {{ date }}</title>
   <link rel="stylesheet" href="static/style.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3T9BVERBBJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3T9BVERBBJ');
+  </script>
 </head>
 <body>
 <header class="topbar"><div class="container nav"><a class="brand" href="index.html"><span class="brand-mark">MP</span><span>Market<span class="accent">Pulse</span></span></a><nav><a href="index.html">Today</a><a href="archive/index.html">Archive</a></nav></div></header>
