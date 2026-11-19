@@ -165,6 +165,12 @@ def fallback_data(articles):
             "article_id": article["article_id"],
             "headline": article["title"],
             "summary": description[:420],
+            "source_name": article.get("source", ""),
+            "source_url": article.get("link", ""),
+            "published_time": article.get(
+                "published_time",
+                "Date not supplied by source"
+            ),
             "impact_type": "Neutral",
             "market_impact": (
                 "Potential market relevance is based on the headline "
