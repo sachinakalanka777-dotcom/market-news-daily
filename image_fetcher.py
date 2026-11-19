@@ -2,16 +2,23 @@
 import logging
 import os
 import random
+import re
 import requests
 
 UTM = "?utm_source=marketpulsenews&utm_medium=referral"
 
+FALLBACK_QUERIES = {
+    "business": "business office corporate",
+    "technology": "technology computers innovation",
+    "markets": "stock market trading finance",
+    "economy": "global economy finance",
+    "crypto": "cryptocurrency blockchain",
+    "energy": "renewable energy electricity",
+    "finance": "financial markets banking",
+}
+
 
 def get_image_for_story(story, used_urls=None):
-    """
-    Find a relevant Unsplash image.
-    Prevent the same Unsplash photo ID from being reused.
-    """
     if used_urls is None:
         used_urls = set()
 
@@ -22,76 +29,99 @@ def get_image_for_story(story, used_urls=None):
         return None
 
     headline = story.get("headline", "")
-    category = story.get("category", "")
-    keywords = story.get("image_keywords", "")
+    category = str(story.get("category", "business")).lower()
+    keywords = str(story.get("image_keywords", "")).strip()
 
-    query_parts = [
-        str(x).strip()
-        for x in [keywords, headline, category, "finance business"]
-        if x and str(x).strip()
+    # Try focused queries first, then broader fallback queries.
+    queries = []
+
+    if keywords:
+        queries.append(keywords)
+
+    clean_headline = re.sub(r"[^a-zA-Z0-9 ]", " ", headline)
+    words = [
+        word for word in clean_headline.split()
+        if len(word) > 3
     ]
 
-    query = " ".join(query_parts)
+    if words:
+        queries.append(" ".join(words[:4]))
 
-    try:
-        response = requests.get(
-            "https://api.unsplash.com/search/photos",
-            params={
-                "query": query,
-                "per_page": 30,
-                "orientation": "landscape"
-            },
-            headers={"Authorization": f"Client-ID {key}"},
-            timeout=20
-        )
+    for key_name, fallback in FALLBACK_QUERIES.items():
+        if key_name in category:
+            queries.append(fallback)
+            break
+    else:
+        queries.append("business finance")
 
-        response.raise_for_status()
-        results = response.json().get("results", [])
+    # Remove duplicate queries.
+    queries = list(dict.fromkeys(queries))
 
-        available = [
-            photo for photo in results
-            if photo.get("id")
-            and photo.get("urls", {}).get("regular")
-            and photo["id"] not in used_urls
-        ]
+    headers = {"Authorization": f"Client-ID {key}"}
 
-        if not available:
+    for query in queries:
+        try:
+            response = requests.get(
+                "https://api.unsplash.com/search/photos",
+                params={
+                    "query": query,
+                    "per_page": 30,
+                    "orientation": "landscape",
+                    "content_filter": "high"
+                },
+                headers=headers,
+                timeout=20
+            )
+
+            response.raise_for_status()
+            results = response.json().get("results", [])
+
+            available = [
+                photo for photo in results
+                if photo.get("id")
+                and photo.get("urls", {}).get("regular")
+                and photo["id"] not in used_urls
+            ]
+
+            if not available:
+                continue
+
+            photo = random.choice(available)
+            photo_id = photo["id"]
+            user = photo.get("user", {})
+
+            used_urls.add(photo_id)
+
+            profile = (
+                user.get("links", {}).get(
+                    "html", "https://unsplash.com"
+                ) + UTM
+            )
+
+            return {
+                "url": photo["urls"]["regular"],
+                "credit": (
+                    f"Photo by {user.get('name', 'Photographer')} "
+                    "on Unsplash"
+                ),
+                "credit_html": (
+                    f'<a href="{profile}" target="_blank" '
+                    f'rel="noopener">'
+                    f'{user.get("name", "Photographer")}</a> / '
+                    f'<a href="https://unsplash.com{UTM}" '
+                    f'target="_blank" rel="noopener">Unsplash</a>'
+                )
+            }
+
+        except Exception as exc:
             logging.warning(
-                "No unique Unsplash image found for: %s",
-                headline
+                "Unsplash lookup failed for query '%s': %s",
+                query,
+                exc
             )
-            return None
 
-        photo = random.choice(available)
-        photo_id = photo["id"]
-        image_url = photo["urls"]["regular"]
-        user = photo.get("user", {})
-
-        # Store the unique photo ID, not only its URL.
-        used_urls.add(photo_id)
-
-        profile = (
-            user.get("links", {}).get("html", "https://unsplash.com")
-            + UTM
-        )
-
-        return {
-            "url": image_url,
-            "credit": (
-                f"Photo by {user.get('name', 'Photographer')} on Unsplash"
-            ),
-            "credit_html": (
-                f'<a href="{profile}" target="_blank" rel="noopener">'
-                f'{user.get("name", "Photographer")}</a> / '
-                f'<a href="https://unsplash.com{UTM}" target="_blank" '
-                f'rel="noopener">Unsplash</a>'
-            )
-        }
-
-    except Exception as exc:
-        logging.warning(
-            "Unsplash lookup failed for %s: %s",
-            headline,
-            exc
-        )
-        return None
+    logging.warning(
+        "No unique Unsplash image found for: %s",
+        headline
+    )
+    return None
