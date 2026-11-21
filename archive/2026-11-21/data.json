@@ -1,0 +1,225 @@
+{
+  "market_overview": "Major US stock indexes tumbled, with the S&P 500 and Dow Jones Industrial Average entering correction territory as tech and chipmakers led broad declines. The downturn coincided with heavy selling across artificial intelligence stocks following Anthropic's public market debut.",
+  "stories": [
+    {
+      "rank": 1,
+      "headline": "S&P 500 and Dow Enter Correction as AI Stock Rout Deepens",
+      "summary": "The S&P 500 and Dow Jones Industrial Average closed in correction territory on Friday, while the Nasdaq erased its 2026 gains. Market weakness intensified amid a decline in Anthropic shares following the company's recent public debut.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+      "published_time": "2026-11-20T23:46:18+00:00",
+      "impact_type": "Bearish",
+      "market_impact": "Broad market sentiment may remain pressured as losses in major tech names spill across core equity benchmarks.",
+      "sectors_affected": [
+        "Technology",
+        "Financials",
+        "Consumer Discretionary"
+      ],
+      "category": "Markets",
+      "image_keywords": "['stock exchange', 'bear market', 'trading floor']",
+      "image": "https://images.unsplash.com/photo-1768242079046-c9c633187db1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTd8fCU1QiUyN3N0b2NrJTIwZXhjaGFuZ2UlMjclMkMlMjAlMjdiZWFyJTIwbWFya2V0JTI3JTJDJTIwJTI3dHJhZGluZyUyMGZsb29yJTI3JTVEfGVufDF8MHx8fDE3OTUyMjU1ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Jakub Żerdzicki on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@jakubzerdzicki?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Jakub Żerdzicki</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 2,
+      "headline": "Broad-Based Weekly Drop Hits All Eleven S&P 500 Sectors",
+      "summary": "All 11 S&P 500 sectors declined by more than 1% during the week, marking the first such occurrence since April 2025. The broad drop pulled both the Dow and the S&P 500 into technical corrections, capping the Nasdaq's worst week since 2020.",
+      "source_name": "MarketWatch Top Stories",
+      "source_url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
+      "published_time": "2026-11-20T22:46:00+00:00",
+      "impact_type": "Bearish",
+      "market_impact": "Widespread sectoral weakness could indicate deteriorating market breadth across US equities.",
+      "sectors_affected": [
+        "Technology",
+        "Financials",
+        "Industrials"
+      ],
+      "category": "Markets",
+      "image_keywords": "['wall street', 'stock chart', 'market drop']",
+      "image": "https://images.unsplash.com/photo-1747607484737-2c7a563ed98e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTd8fCU1QiUyN3dhbGwlMjBzdHJlZXQlMjclMkMlMjAlMjdzdG9jayUyMGNoYXJ0JTI3JTJDJTIwJTI3bWFya2V0JTIwZHJvcCUyNyU1RHxlbnwxfDB8fHwxNzk1MjI1NTg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Jahanzeb Ahsan on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@jahan_photobox?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Jahanzeb Ahsan</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 3,
+      "headline": "Anthropic Shares Drop 8.5% Following Record-Setting IPO",
+      "summary": "Anthropic shares declined 8.5% on Friday, paring gains made during its initial public offering debut. The pullback in the AI lab's shares tested market sentiment after completing the largest IPO in history.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-share-slump-nearly-erases-ipo-pop-as-ai-trade-unravels",
+      "published_time": "2026-11-20T14:36:49+00:00",
+      "impact_type": "Bearish",
+      "market_impact": "Sustained weakness in Anthropic may dampen investor enthusiasm across artificial intelligence equities.",
+      "sectors_affected": [
+        "Technology"
+      ],
+      "category": "Technology",
+      "image_keywords": "['artificial intelligence', 'tech stock', 'ipo']",
+      "image": "https://images.unsplash.com/photo-1677442135136-760c813028c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8NHx8JTVCJTI3YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyNyUyQyUyMCUyN3RlY2glMjBzdG9jayUyNyUyQyUyMCUyN2lwbyUyNyU1RHxlbnwxfDB8fHwxNzk1MjI1NTg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Steve A Johnson on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@steve_j?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Steve A Johnson</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 4,
+      "headline": "Chipmaker Sell-Off Pulls US Benchmarks Into Technical Correction",
+      "summary": "Semiconductor stocks led a sharp slide in US equities, sending both the Dow Jones Industrial Average and the S&P 500 into correction territory. The retreat highlighted broad investor de-risking within the tech sector.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2026-11-20/s-p-dow-slide-into-correction-as-investors-dump-tech-video",
+      "published_time": "2026-11-20T22:25:52+00:00",
+      "impact_type": "Bearish",
+      "market_impact": "Downside momentum among chip manufacturers may continue to weigh on major technology indices.",
+      "sectors_affected": [
+        "Technology"
+      ],
+      "category": "Markets",
+      "image_keywords": "['semiconductor', 'microchip', 'stock screen']",
+      "image": "https://images.unsplash.com/photo-1782088545589-46e4ece8190e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTB8fCU1QiUyN3NlbWljb25kdWN0b3IlMjclMkMlMjAlMjdtaWNyb2NoaXAlMjclMkMlMjAlMjdzdG9jayUyMHNjcmVlbiUyNyU1RHxlbnwxfDB8fHwxNzk1MjI1NTg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Brecht Corbeel on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@brechtcorbeel?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Brecht Corbeel</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 5,
+      "headline": "Gold Records Steep Weekly Decline Amid Fed Stance and Tech Rout",
+      "summary": "Gold prices fell for a fifth consecutive session, posting their largest weekly retreat since March. The drop was driven by hawkish Federal Reserve signals pointing toward additional rate hikes alongside spillover selling from the tech rout.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
+      "published_time": "2026-11-19T23:56:03+00:00",
+      "impact_type": "Bearish",
+      "market_impact": "Persistently higher rate expectations could maintain headwinds for both non-yielding assets and equities.",
+      "sectors_affected": [
+        "Materials",
+        "Commodities"
+      ],
+      "category": "Commodities",
+      "image_keywords": "['gold bars', 'interest rates', 'commodities']",
+      "image": "https://images.unsplash.com/photo-1621028025774-104e1816b176?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Nnx8JTVCJTI3Z29sZCUyMGJhcnMlMjclMkMlMjAlMjdpbnRlcmVzdCUyMHJhdGVzJTI3JTJDJTIwJTI3Y29tbW9kaXRpZXMlMjclNUR8ZW58MXwwfHx8MTc5NTIyNTU4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Scottsdale Mint on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@scottsdalemint?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Scottsdale Mint</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 6,
+      "headline": "Zscaler Surges 18% on Reported CrowdStrike Acquisition Talks",
+      "summary": "Shares of Zscaler advanced 18% following reports that cybersecurity peer CrowdStrike is exploring an acquisition of the company. The development comes as cybersecurity firms seek strategic acquisitions amid the broader expansion of AI technologies.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
+      "published_time": "2026-11-20T21:35:24+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "Potential consolidation may provide localized support and speculative interest within software security stocks.",
+      "sectors_affected": [
+        "Technology"
+      ],
+      "category": "Technology",
+      "image_keywords": "['cybersecurity', 'mergers', 'tech software']",
+      "image": "https://images.unsplash.com/photo-1751448555253-f39c06e29d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8NHx8JTVCJTI3Y3liZXJzZWN1cml0eSUyNyUyQyUyMCUyN21lcmdlcnMlMjclMkMlMjAlMjd0ZWNoJTIwc29mdHdhcmUlMjclNUR8ZW58MXwwfHx8MTc5NTIyNTU4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Zulfugar Karimov on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@zulfugarkarimov?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Zulfugar Karimov</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 7,
+      "headline": "Anthropic Raises $93.5 Billion Total Following Greenshoe Exercise",
+      "summary": "Anthropic raised a total of $93.5 billion in its initial public offering after underwriters exercised the greenshoe overallotment option. The artificial intelligence firm issued 1.127 billion shares at a debut price of $83 per share.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+      "published_time": "2026-11-20T14:59:38+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "The large absorption of capital into new equity supply could test ongoing market liquidity.",
+      "sectors_affected": [
+        "Technology",
+        "Financials"
+      ],
+      "category": "Technology",
+      "image_keywords": "['capital raising', 'ipo investment', 'finance']",
+      "image": "https://images.unsplash.com/photo-1579227113447-f1e32cc6bd42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjB8fCU1QiUyN2NhcGl0YWwlMjByYWlzaW5nJTI3JTJDJTIwJTI3aXBvJTIwaW52ZXN0bWVudCUyNyUyQyUyMCUyN2ZpbmFuY2UlMjclNUR8ZW58MXwwfHx8MTc5NTIyNTU5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by 金 运 on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@jinyun?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">金 运</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 8,
+      "headline": "Rising Corporate Stock Issuance Challenges Market Demand",
+      "summary": "US corporations are increasingly transitioning from share repurchases to issuing new stock, expanding equity supply. This shift coincided with Anthropic's multi-billion dollar offering, placing elevated scrutiny on overall equity demand.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
+      "published_time": "2026-11-20T14:15:29+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "An expanding supply of corporate equity may create resistance against near-term market recoveries.",
+      "sectors_affected": [
+        "Financials",
+        "Technology"
+      ],
+      "category": "Markets",
+      "image_keywords": "['share issuance', 'buybacks', 'financial market']",
+      "image": "https://images.unsplash.com/photo-1549421263-6064833b071b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8NHx8JTVCJTI3c2hhcmUlMjBpc3N1YW5jZSUyNyUyQyUyMCUyN2J1eWJhY2tzJTI3JTJDJTIwJTI3ZmluYW5jaWFsJTIwbWFya2V0JTI3JTVEfGVufDF8MHx8fDE3OTUyMjU1OTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Ishant Mishra on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@ishant_mishra54?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Ishant Mishra</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 9,
+      "headline": "SEC Proposes Restructuring CAT Funding and Governance Rules",
+      "summary": "The Securities and Exchange Commission unveiled a regulatory proposal to overhaul the governance and funding mechanisms of the Consolidated Audit Trail. The plan includes proposing the rescission of Rule 613 under Regulation NMS to address operating inefficiencies.",
+      "source_name": "SEC Press Releases",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
+      "published_time": "2026-11-20T18:03:24+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "Structural changes to market surveillance systems could alter administrative and operational dynamics for brokerage firms.",
+      "sectors_affected": [
+        "Financials"
+      ],
+      "category": "Regulation",
+      "image_keywords": "['sec regulatory', 'compliance', 'trading regulation']",
+      "image": "https://images.unsplash.com/photo-1611187401217-0fee54edf7ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTh8fCU1QiUyN3NlYyUyMHJlZ3VsYXRvcnklMjclMkMlMjAlMjdjb21wbGlhbmNlJTI3JTJDJTIwJTI3dHJhZGluZyUyMHJlZ3VsYXRpb24lMjclNUR8ZW58MXwwfHx8MTc5NTIyNTU5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Sasun Bughdaryan on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@sasun1990?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Sasun Bughdaryan</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    }
+  ],
+  "ai_provider": "Gemini",
+  "date": "2026-11-21",
+  "generated_at_utc": "2026-11-21T01:45:29.040645+00:00",
+  "generated_at_local": "2026-11-21 07:15:29 +0530",
+  "article_count_collected": 33,
+  "feed_status": [
+    {
+      "source": "BBC Business",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "source": "CNBC Top News",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "Federal Reserve",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "SEC Press Releases",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "MarketWatch Top Stories",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "Bloomberg Markets",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Investing.com Markets",
+      "status": "ok",
+      "items": 2
+    }
+  ]
+}
