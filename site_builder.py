@@ -39,7 +39,19 @@ def build_sitemap():
         encoding="utf-8",
         xml_declaration=True
     )
+    robots_content = (
+        "User-agent: *\n"
+        "Allow: /\n"
+        "\n"
+        "Sitemap: https://marketpulsenews.online/sitemap.xml\n"
+    )
 
+    (SITE / "robots.txt").write_text(
+        robots_content,
+        encoding="utf-8"
+    )
+
+    print("robots.txt generated successfully")
     print(f"Sitemap generated: {len(urls)} URLs")
 
 
