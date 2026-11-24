@@ -207,6 +207,15 @@
   margin-top: 35px;
 }
 
+/* Always respect the hidden attribute */
+.category-load-more-wrapper[hidden] {
+  display: none !important;
+}
+
+.category-story-card[hidden] {
+  display: none !important;
+}
+
 .category-load-more {
   padding: 13px 28px;
   border: 1px solid rgba(96, 165, 250, 0.45);
@@ -415,14 +424,8 @@
 
     </div>
 
+    <!-- Only one Load More button -->
     <div class="category-load-more-wrapper" id="categoryLoadMoreWrapper" hidden>
-  <button
-    type="button"
-    class="category-load-more"
-    id="categoryLoadMore">
-    Load More News
-  </button>
-</div>
       <button
         type="button"
         class="category-load-more"
@@ -459,9 +462,11 @@
 
   if (!grid || !button || !wrapper) return;
 
-  const cards = Array.from(grid.querySelectorAll(".category-story-card"));
-  const batchSize = 6;
+  const cards = Array.from(
+    grid.querySelectorAll(".category-story-card")
+  );
 
+  const batchSize = 6;
   let visibleCount = Math.min(batchSize, cards.length);
 
   function updateCards() {
@@ -469,11 +474,16 @@
       card.hidden = index >= visibleCount;
     });
 
+    // Show button only when more than 6 stories exist
     wrapper.hidden = cards.length <= batchSize || visibleCount >= cards.length;
   }
 
   button.addEventListener("click", function () {
-    visibleCount = Math.min(visibleCount + batchSize, cards.length);
+    visibleCount = Math.min(
+      visibleCount + batchSize,
+      cards.length
+    );
+
     updateCards();
   });
 
