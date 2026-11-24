@@ -1,210 +1,173 @@
 {
-  "market_overview": "US stock benchmarks experienced significant pressure, with the S&P 500 and the Dow Jones Industrial Average entering correction territory amid a sharp selloff in technology and artificial intelligence equities. Turmoil surrounding Anthropic's public market debut and leadership changes at Nvidia contributed to tech's worst weekly performance since 2020.",
+  "market_overview": "U.S. equities rallied sharply as Jensen Huang's return as Nvidia CEO revived market-wide artificial intelligence enthusiasm. Meanwhile, Federal Reserve commentary signaled the potential for higher interest rates over time to address inflation.",
   "stories": [
     {
       "rank": 1,
-      "headline": "Tech Selloff Pushes S&P 500 and Dow Jones into Correction Territory",
-      "summary": "Pressures weighed heavily on major US stock indexes, dragging both the S&P 500 and the Dow Jones Industrial Average into correction territory. The declines were led by a broad slide across technology stocks and a retreat in Anthropic shares following its debut.",
-      "source_name": "BBC Business",
-      "source_url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "published_time": "2026-11-20T22:42:47+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Broad market sentiment may remain vulnerable following the benchmark indexes' descent into correction territory.",
+      "headline": "U.S. Equities Surge Following Jensen Huang's Return to Nvidia",
+      "summary": "The Dow jumped 1,400 points and the Nasdaq surged 6% on Monday. The broad market advance marked the best session since April 2025 after Nvidia reinstated Jensen Huang as CEO.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html",
+      "published_time": "2026-11-23T21:10:49+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "Broad equity sentiment may see continued support following the massive rebound in mega-cap technology shares.",
       "sectors_affected": [
         "Technology",
-        "Financials"
+        "Semiconductors"
       ],
       "category": "Markets",
-      "image_keywords": "['stock market chart', 'wall street']",
-      "image": "https://images.unsplash.com/photo-1701831737236-f365b205f578?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8NHx8JTVCJTI3c3RvY2slMjBtYXJrZXQlMjBjaGFydCUyNyUyQyUyMCUyN3dhbGwlMjBzdHJlZXQlMjclNUR8ZW58MXwwfHx8MTc5NTMxMjIxMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Larry Nalzaro on Unsplash",
+      "image_keywords": "['stock exchange', 'trading screen']",
+      "image": "https://images.unsplash.com/photo-1651341050677-24dba59ce0fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8JTVCJTI3c3RvY2slMjBleGNoYW5nZSUyNyUyQyUyMCUyN3RyYWRpbmclMjBzY3JlZW4lMjclNUR8ZW58MXwwfHx8MTc5NTQ4NDkzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Anne Nygård on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@lnalzaro?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Larry Nalzaro</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@polarmermaid?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Anne Nygård</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 2,
-      "headline": "Anthropic Debuts on Nasdaq Amid Tech's Worst Week Since 2020",
-      "summary": "Anthropic staged its historic Nasdaq initial public offering during a major slump for the technology sector. The debut coincided with Nvidia recording its longest weekly losing streak since 2008.",
+      "headline": "Fed's Williams Sees Higher Rates Over Time to Counter Inflation",
+      "summary": "Federal Reserve Bank of New York President John Williams indicated that higher interest rates are likely over time to address inflation pressures. He expressed confidence that inflation would approach the central bank's 2% target in 2027.",
       "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
-      "published_time": "2026-11-21T16:40:05+00:00",
+      "source_url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "published_time": "2026-11-23T21:02:17+00:00",
       "impact_type": "Bearish",
-      "market_impact": "Weakness across leading semiconductor and AI names could continue to depress tech-heavy indexes.",
+      "market_impact": "Expectations of prolonged higher interest rates could exert downward pressure on equity valuations and borrowing-sensitive sectors.",
       "sectors_affected": [
-        "Technology",
-        "Semiconductors"
+        "Banking",
+        "Real Estate",
+        "Technology"
       ],
-      "category": "Technology",
-      "image_keywords": "['nasdaq', 'trading floor']",
-      "image": "https://images.unsplash.com/photo-1649003515353-c58a239cf662?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTZ8fCU1QiUyN25hc2RhcSUyNyUyQyUyMCUyN3RyYWRpbmclMjBmbG9vciUyNyU1RHxlbnwxfDB8fHwxNzk1MzEyMjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Tötös Ádám on Unsplash",
+      "category": "Federal Reserve",
+      "image_keywords": "['federal reserve', 'interest rates']",
+      "image": "https://images.unsplash.com/photo-1793267933039-167913c33931?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjZ8fCU1QiUyN2ZlZGVyYWwlMjByZXNlcnZlJTI3JTJDJTIwJTI3aW50ZXJlc3QlMjByYXRlcyUyNyU1RHxlbnwxfDB8fHwxNzk1NDg0OTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Belladonna on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@toti1996?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Tötös Ádám</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@belladonna8?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Belladonna</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 3,
-      "headline": "Wall Street Questions AI Trade Following Nvidia Leadership Shakeup and Anthropic Volatility",
-      "summary": "A difficult month for equity markets has been intensified by the ouster of Jensen Huang from Nvidia Corp. and Democratic victories in midterm elections. Investors are questioning the stability of the artificial intelligence trade following subsequent losses in Anthropic shares.",
-      "source_name": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-11-21/wall-street-asks-what-can-save-ai-trade-after-anthropic-wipeout",
-      "published_time": "2026-11-21T13:00:00+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Uncertainty surrounding key semiconductor leadership may create continued headwinds for AI-related equities.",
+      "headline": "Nvidia Market Value Surges Near $1 Trillion Following CEO Reinstatement",
+      "summary": "Nvidia's market capitalization climbed by almost $1 trillion as tech shares rallied after the return of Jensen Huang. The sharp move lifted the broader tech-heavy Nasdaq index by 6.5%.",
+      "source_name": "BBC Business",
+      "source_url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+      "published_time": "2026-11-23T21:23:42+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "The rapid recovery in semiconductor valuations may stabilize key indexes heavily weighted toward large-cap tech.",
       "sectors_affected": [
-        "Technology",
-        "Semiconductors"
+        "Semiconductors",
+        "Technology"
       ],
-      "category": "Markets",
-      "image_keywords": "['semiconductor', 'stock board']",
-      "image": "https://images.unsplash.com/photo-1758696654954-cd55525ea398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjJ8fFdhbGwlMjBTdHJlZXQlMjBRdWVzdGlvbnMlMjBUcmFkZXxlbnwxfDB8fHwxNzk1MzEyMjEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Brother Yoon on Unsplash",
+      "category": "Technology",
+      "image_keywords": "['computer chip', 'stock chart']",
+      "image": "https://images.unsplash.com/photo-1782338938951-1cb2f9ec10a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8OHx8JTVCJTI3Y29tcHV0ZXIlMjBjaGlwJTI3JTJDJTIwJTI3c3RvY2slMjBjaGFydCUyNyU1RHxlbnwxfDB8fHwxNzk1NDg0OTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Brecht Corbeel on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@brother_yoon?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Brother Yoon</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@brechtcorbeel?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Brecht Corbeel</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 4,
-      "headline": "Anthropic IPO Does Not Abate Market Concerns Over AI Capital Costs",
-      "summary": "The sharp artificial intelligence market selloff has raised doubts about whether markets can sustain financing the massive capital needs of AI developers. Despite ongoing demand for computing capacity and rising semiconductor earnings estimates, funding hundreds of billions in infrastructure remains a key challenge.",
-      "source_name": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/videos/2026-11-21/anthropic-ipo-fails-to-calm-ai-jitters-video",
-      "published_time": "2026-11-21T13:43:18+00:00",
-      "impact_type": "Neutral",
-      "market_impact": "High capital expenditure requirements could limit upside for AI infrastructure and semiconductor stocks.",
-      "sectors_affected": [
-        "Technology",
-        "Semiconductors"
-      ],
-      "category": "Technology",
-      "image_keywords": "['data center', 'cloud computing']",
-      "image": "https://images.unsplash.com/photo-1793957347445-fb38c7b98c2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTJ8fCU1QiUyN2RhdGElMjBjZW50ZXIlMjclMkMlMjAlMjdjbG91ZCUyMGNvbXB1dGluZyUyNyU1RHxlbnwxfDB8fHwxNzk1MzEyMjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Matin Huseynzade on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@chilldude?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Matin Huseynzade</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 5,
-      "headline": "Zscaler Jumps 18% Following Report of CrowdStrike Takeover Talks",
-      "summary": "Shares of Zscaler advanced 18% on reports that CrowdStrike is holding talks to acquire the security vendor. The potential deal reflects an ongoing push by cybersecurity firms to pursue acquisitions in the artificial intelligence era.",
+      "headline": "CrowdStrike CEO Defends $44 Billion Deal to Acquire Zscaler",
+      "summary": "CrowdStrike CEO George Kurtz defended the company's planned $44 billion acquisition of cybersecurity firm Zscaler, calling the transaction a winning combination. The remarks come as the company reported quarterly results alongside the deal's announcement.",
       "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
-      "published_time": "2026-11-20T21:35:24+00:00",
-      "impact_type": "Bullish",
-      "market_impact": "Acquisition interest could provide support to software and cybersecurity valuations.",
+      "source_url": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-deal-ceo-george-kurtz.html",
+      "published_time": "2026-11-23T23:53:20+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "Large-scale acquisition activity may generate mixed sentiment and increased scrutiny across cybersecurity and enterprise software valuations.",
       "sectors_affected": [
         "Technology",
         "Software"
       ],
       "category": "Technology",
-      "image_keywords": "['cybersecurity', 'mergers acquisitions']",
-      "image": "https://images.unsplash.com/photo-1768839720936-87ce3adf2d08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mjl8fCU1QiUyN2N5YmVyc2VjdXJpdHklMjclMkMlMjAlMjdtZXJnZXJzJTIwYWNxdWlzaXRpb25zJTI3JTVEfGVufDF8MHx8fDE3OTUzMTIyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Sasun Bughdaryan on Unsplash",
+      "image_keywords": "['cybersecurity', 'corporate handshake']",
+      "image": "https://images.unsplash.com/photo-1696861270495-7f35c35c3273?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTJ8fCU1QiUyN2N5YmVyc2VjdXJpdHklMjclMkMlMjAlMjdjb3Jwb3JhdGUlMjBoYW5kc2hha2UlMjclNUR8ZW58MXwwfHx8MTc5NTQ4NDk0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by David Trinks on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@sasun1990?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Sasun Bughdaryan</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@dtrinksrph?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">David Trinks</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 5,
+      "headline": "Consumer Staples Slide as Investors Rotate Back Toward Tech",
+      "summary": "Shares of consumer staples companies, including Kroger and Tyson Foods, were among the S&P 500's biggest decliners on Monday. Defensive consumer stocks had previously been viewed as safe havens amid recent softness in artificial intelligence shares.",
+      "source_name": "MarketWatch Top Stories",
+      "source_url": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
+      "published_time": "2026-11-23T21:45:00+00:00",
+      "impact_type": "Bearish",
+      "market_impact": "Capital rotation out of defensive sectors into tech could cause short-term underperformance in consumer staple equities.",
+      "sectors_affected": [
+        "Consumer Defensive",
+        "Retail"
+      ],
+      "category": "Markets",
+      "image_keywords": "['grocery aisle', 'stock ticker']",
+      "image": "https://images.unsplash.com/photo-1737301214226-3f959016436f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTR8fHN0b2NrJTIwbWFya2V0JTIwdHJhZGluZyUyMGZpbmFuY2V8ZW58MXwwfHx8MTc5NTQ4NDk0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Jakub Żerdzicki on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@jakubzerdzicki?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Jakub Żerdzicki</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 6,
-      "headline": "Defensive Equities Advance as AI Market Retreats",
-      "summary": "Previously unloved consumer stocks such as Clorox, Boston Beer, and Campbell's are gaining traction as the AI trade slows. Capital has begun rotating into out-of-favor names while high-flying technology names roll over.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/21/from-trash-to-treasure-these-hated-stocks-are-winning-as-ai-flounders.html",
-      "published_time": "2026-11-21T13:10:40+00:00",
+      "headline": "SharkNinja Set to Replace AES in S&P 500 Index",
+      "summary": "Appliance maker SharkNinja will join the benchmark S&P 500 index. The company will replace utility firm AES in the index lineup.",
+      "source_name": "MarketWatch Top Stories",
+      "source_url": "https://www.marketwatch.com/story/the-newest-addition-to-the-s-p-500-is-a-maker-of-viral-ice-cream-machines-5c6e209a?mod=mw_rss_topstories",
+      "published_time": "2026-11-23T23:18:00+00:00",
       "impact_type": "Neutral",
-      "market_impact": "Rotation out of high-growth tech could drive capital inflows into defensive consumer staples.",
+      "market_impact": "Inclusion in the benchmark could lead to targeted portfolio adjustments by passive and index-tracking funds.",
       "sectors_affected": [
-        "Consumer Staples",
-        "Technology"
+        "Consumer Cyclical",
+        "Utilities"
       ],
       "category": "Markets",
-      "image_keywords": "['consumer goods', 'stock rotation']",
-      "image": "https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Nnx8JTVCJTI3Y29uc3VtZXIlMjBnb29kcyUyNyUyQyUyMCUyN3N0b2NrJTIwcm90YXRpb24lMjclNUR8ZW58MXwwfHx8MTc5NTMxMjIxNXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Marija Zaric on Unsplash",
+      "image_keywords": "['kitchen appliance', 'stock index']",
+      "image": "https://images.unsplash.com/photo-1722888879060-ed9d1e88c2c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTh8fCU1QiUyN2tpdGNoZW4lMjBhcHBsaWFuY2UlMjclMkMlMjAlMjdzdG9jayUyMGluZGV4JTI3JTVEfGVufDF8MHx8fDE3OTU0ODQ5NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Clay Banks on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@simplicity?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Marija Zaric</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@claybanks?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Clay Banks</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 7,
-      "headline": "SEC Proposes Overhaul of Consolidated Audit Trail Governance and Funding",
-      "summary": "The Securities and Exchange Commission issued a proposal intended to resolve inefficiencies in the governance and funding model of the Consolidated Audit Trail. As part of the regulatory overhaul, the Commission proposed rescinding Rule 613 of Regulation NMS.",
-      "source_name": "SEC Press Releases",
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
-      "published_time": "2026-11-20T18:03:24+00:00",
-      "impact_type": "Neutral",
-      "market_impact": "Structural changes to market surveillance rules could affect compliance costs across broker-dealers and exchanges.",
+      "headline": "Stock Futures Edge Higher Following Major Index Rebound",
+      "summary": "U.S. stock futures inched higher as investors watched whether Nvidia could maintain momentum from Jensen Huang's return. Both the S&P 500 and Nasdaq posted their strongest performances since April 2025 during the preceding regular session.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html",
+      "published_time": "2026-11-24T01:43:56+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "Futures pointing upward indicate that the rally sparked by technology shares could carry into the next trading session.",
       "sectors_affected": [
-        "Financials"
+        "Technology",
+        "Financial Services"
       ],
-      "category": "Regulation",
-      "image_keywords": "['regulatory agency', 'documents']",
-      "image": "https://images.unsplash.com/photo-1631557776874-e39db672b62d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTd8fCU1QiUyN3JlZ3VsYXRvcnklMjBhZ2VuY3klMjclMkMlMjAlMjdkb2N1bWVudHMlMjclNUR8ZW58MXwwfHx8MTc5NTMxMjIxNnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by 2H Media on Unsplash",
+      "category": "Markets",
+      "image_keywords": "['financial district', 'trading floor']",
+      "image": "https://images.unsplash.com/photo-1770461846516-b7e5993a8e4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8JTVCJTI3ZmluYW5jaWFsJTIwZGlzdHJpY3QlMjclMkMlMjAlMjd0cmFkaW5nJTIwZmxvb3IlMjclNUR8ZW58MXwwfHx8MTc5NTQ4NDk0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by David Vives on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@2hmedia?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">2H Media</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@davidvives?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">David Vives</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 8,
-      "headline": "Russian Cargo Ship Attacked by Drones in Gulf of Finland",
-      "summary": "A Russian cargo vessel heading toward Kaliningrad was attacked by drones in international waters in the Gulf of Finland. The event underscores heightened disruption risks for Russian energy and agricultural exports moving along critical Baltic Sea maritime routes.",
-      "source_name": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-11-21/russia-says-cargo-ship-attacked-by-drones-in-gulf-of-finland",
-      "published_time": "2026-11-21T11:44:46+00:00",
+      "headline": "Wall Street Strategists Weigh Market Bottom After Huang's Return",
+      "summary": "Market strategists noted that Jensen Huang's return to Nvidia could steady the artificial intelligence trade after recent market volatility. However, analysts pointed out that underlying spending and data-center risks still remain.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
+      "published_time": "2026-11-23T18:00:47+00:00",
       "impact_type": "Neutral",
-      "market_impact": "Potential disruptions to Baltic shipping routes may introduce volatility into global commodity and energy markets.",
+      "market_impact": "Persistent questions regarding capital expenditure and data center demand may temper sustained momentum in artificial intelligence stocks.",
       "sectors_affected": [
-        "Energy",
-        "Industrials"
+        "Technology",
+        "Semiconductors"
       ],
-      "category": "Geopolitics",
-      "image_keywords": "['cargo ship', 'maritime shipping']",
-      "image": "https://images.unsplash.com/photo-1621862681400-a2a7321dc1c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mjd8fCU1QiUyN2NhcmdvJTIwc2hpcCUyNyUyQyUyMCUyN21hcml0aW1lJTIwc2hpcHBpbmclMjclNUR8ZW58MXwwfHx8MTc5NTMxMjIxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Kurt Cotoaga on Unsplash",
+      "category": "Technology",
+      "image_keywords": "['data center', 'server racks']",
+      "image": "https://images.unsplash.com/photo-1790746717489-71cec0e25704?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8JTVCJTI3ZGF0YSUyMGNlbnRlciUyNyUyQyUyMCUyN3NlcnZlciUyMHJhY2tzJTI3JTVEfGVufDF8MHx8fDE3OTU0ODQ5NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Brecht Corbeel on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@kydroon?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Kurt Cotoaga</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 9,
-      "headline": "SEC Halts Alleged $560 Million Offering Fraud by Backward Hat Capital",
-      "summary": "The SEC obtained emergency relief, including an asset freeze and temporary restraining order, against Indianapolis-based Backward Hat Capital and its co-founders. The agency charged the firm and executives in connection with an alleged $560 million offering fraud.",
-      "source_name": "SEC Press Releases",
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
-      "published_time": "2026-11-20T14:28:28+00:00",
-      "impact_type": "Neutral",
-      "market_impact": "Enforcement actions against large private offerings may heighten investor scrutiny over non-registered investment vehicles.",
-      "sectors_affected": [
-        "Financials"
-      ],
-      "category": "Regulation",
-      "image_keywords": "['court gavel', 'finance fraud']",
-      "image": "https://images.unsplash.com/photo-1611187401884-254eb9d99ed6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTZ8fCU1QiUyN2NvdXJ0JTIwZ2F2ZWwlMjclMkMlMjAlMjdmaW5hbmNlJTIwZnJhdWQlMjclNUR8ZW58MXwwfHx8MTc5NTMxMjIxOHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Sasun Bughdaryan on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@sasun1990?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Sasun Bughdaryan</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 10,
-      "headline": "Federal Reserve Publishes Bank Survey on Reserve Balance Strategies",
-      "summary": "The Federal Reserve Board published results from its survey of senior bank financial officers detailing practices for managing reserve balances. The findings provide insights into institutional liquidity management and bank reserves.",
-      "source_name": "Federal Reserve",
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
-      "published_time": "2026-11-20T15:00:00+00:00",
-      "impact_type": "Neutral",
-      "market_impact": "Data on bank reserve management practices could inform market expectations regarding banking system liquidity.",
-      "sectors_affected": [
-        "Banking",
-        "Financials"
-      ],
-      "category": "Banking",
-      "image_keywords": "['federal reserve', 'central bank']",
-      "image": "https://images.unsplash.com/photo-1683283106454-8b1b22ebf9e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mjd8fCU1QiUyN2ZlZGVyYWwlMjByZXNlcnZlJTI3JTJDJTIwJTI3Y2VudHJhbCUyMGJhbmslMjclNUR8ZW58MXwwfHx8MTc5NTMxMjIxOXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Nikola  Tomašić on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@3kolone?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Nikola  Tomašić</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@brechtcorbeel?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Brecht Corbeel</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     }
   ],
   "ai_provider": "Gemini",
-  "date": "2026-11-22",
-  "generated_at_utc": "2026-11-22T01:44:34.059514+00:00",
-  "generated_at_local": "2026-11-22 07:14:34 +0530",
-  "article_count_collected": 15,
+  "date": "2026-11-24",
+  "generated_at_utc": "2026-11-24T01:48:46.253318+00:00",
+  "generated_at_local": "2026-11-24 07:18:46 +0530",
+  "article_count_collected": 19,
   "feed_status": [
     {
       "source": "BBC Business",
@@ -214,32 +177,32 @@
     {
       "source": "CNBC Top News",
       "status": "ok",
-      "items": 5
+      "items": 8
     },
     {
       "source": "Federal Reserve",
       "status": "ok",
-      "items": 2
+      "items": 0
     },
     {
       "source": "SEC Press Releases",
       "status": "ok",
-      "items": 2
+      "items": 0
     },
     {
       "source": "MarketWatch Top Stories",
       "status": "ok",
-      "items": 1
+      "items": 3
     },
     {
       "source": "Bloomberg Markets",
       "status": "ok",
-      "items": 4
+      "items": 6
     },
     {
       "source": "Investing.com Markets",
       "status": "ok",
-      "items": 0
+      "items": 1
     }
   ]
 }
