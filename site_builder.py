@@ -1,11 +1,46 @@
 
 import json
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 ROOT = Path(__file__).resolve().parent
 SITE = ROOT / "site"
 DATA_DIR = ROOT / "data"
+BASE_URL = "https://marketpulsenews.online"
+
+
+def build_sitemap():
+    urls = [
+        f"{BASE_URL}/",
+        f"{BASE_URL}/archive/",
+    ]
+
+    archive_root = SITE / "archive"
+
+    if archive_root.exists():
+        for folder in sorted(archive_root.iterdir(), reverse=True):
+            if folder.is_dir() and (folder / "index.html").exists():
+                urls.append(f"{BASE_URL}/archive/{folder.name}/")
+
+    namespace = "http://www.sitemaps.org/schemas/sitemap/0.9"
+    ET.register_namespace("", namespace)
+
+    root = ET.Element(f"{{{namespace}}}urlset")
+
+    for page_url in urls:
+        url_element = ET.SubElement(root, f"{{{namespace}}}url")
+        loc = ET.SubElement(url_element, f"{{{namespace}}}loc")
+        loc.text = page_url
+
+    tree = ET.ElementTree(root)
+    tree.write(
+        SITE / "sitemap.xml",
+        encoding="utf-8",
+        xml_declaration=True
+    )
+
+    print(f"Sitemap generated: {len(urls)} URLs")
 
 
 def build_site(data, date_str):
@@ -87,5 +122,8 @@ def build_site(data, date_str):
         (static_out / "style.css").write_bytes(
             stylesheet.read_bytes()
         )
+
+    # Generate sitemap automatically
+    build_sitemap()
 
     print(f"Site built successfully: {SITE}")
