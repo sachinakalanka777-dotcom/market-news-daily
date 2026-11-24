@@ -207,6 +207,15 @@
   margin-top: 35px;
 }
 
+/* Always respect the hidden attribute */
+.category-load-more-wrapper[hidden] {
+  display: none !important;
+}
+
+.category-story-card[hidden] {
+  display: none !important;
+}
+
 .category-load-more {
   padding: 13px 28px;
   border: 1px solid rgba(96, 165, 250, 0.45);
@@ -348,7 +357,7 @@
         
         <div class="category-story-image">
           <img
-            src="https://images.unsplash.com/photo-1631897642056-97a7abff6818?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjB8fGJpdGNvaW4lMjBjcnlwdG9jdXJyZW5jeSUyMGJsb2NrY2hhaW4lMjBkaWdpdGFsJTIwYXNzZXRzfGVufDF8MHx8fDE3OTU1NDYxOTl8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
+            src="https://images.unsplash.com/photo-1621416894569-0f39ed31d247?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTd8fGJpdGNvaW4lMjBjcnlwdG9jdXJyZW5jeSUyMGJsb2NrY2hhaW4lMjBkaWdpdGFsJTIwYXNzZXRzfGVufDF8MHx8fDE3OTU1NDY2OTh8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
             alt="Bitcoin cuts gains sparked by AI trade rally on Wall Street, remains above $61,000"
             loading="lazy"
             decoding="async">
@@ -399,7 +408,7 @@
 
         
         <small class="category-image-credit">
-          Image: Photo by Michael Förtsch on Unsplash
+          Image: Photo by Kanchanara on Unsplash
         </small>
         
 
@@ -412,8 +421,8 @@
         
         <div class="category-story-image">
           <img
-            src="https://images.unsplash.com/photo-1639133893916-a711d8af8c0a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mjh8fGJpdGNvaW4lMjBjcnlwdG9jdXJyZW5jeSUyMGJsb2NrY2hhaW4lMjBkaWdpdGFsJTIwYXNzZXRzfGVufDF8MHx8fDE3OTU1NDYxOTl8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
-            alt="Bitcoin retreats to $60k amid rate, regulatory jitters"
+            src="https://images.unsplash.com/photo-1631603090989-93f9ef6f9d80?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTN8fGJpdGNvaW4lMjBjcnlwdG9jdXJyZW5jeSUyMGJsb2NrY2hhaW4lMjBkaWdpdGFsJTIwYXNzZXRzfGVufDF8MHx8fDE3OTU1NDY2OTh8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
+            alt="LuqEE Reaches Milestone of 100 Bitcoin Cash Blocks Found Through Its Solo Mining Platform"
             loading="lazy"
             decoding="async">
         </div>
@@ -437,8 +446,8 @@
 
           <h2>
             
-            <a href="https://www.investing.com/news/cryptocurrency-news/bitcoin-hovers-around-60k-amid-little-relief-from-rate-regulatory-jitters-5047126" target="_blank" rel="noopener">
-              Bitcoin retreats to $60k amid rate, regulatory jitters
+            <a href="https://www.investing.com/news/cryptocurrency-news/luqee-reaches-milestone-of-100-bitcoin-cash-blocks-found-through-its-solo-mining-platform-5048870" target="_blank" rel="noopener">
+              LuqEE Reaches Milestone of 100 Bitcoin Cash Blocks Found Through Its Solo Mining Platform
             </a>
             
           </h2>
@@ -452,7 +461,7 @@
             <span>Investing.com Crypto</span>
 
             
-            <a href="https://www.investing.com/news/cryptocurrency-news/bitcoin-hovers-around-60k-amid-little-relief-from-rate-regulatory-jitters-5047126" target="_blank" rel="noopener">
+            <a href="https://www.investing.com/news/cryptocurrency-news/luqee-reaches-milestone-of-100-bitcoin-cash-blocks-found-through-its-solo-mining-platform-5048870" target="_blank" rel="noopener">
               Original report ↗
             </a>
             
@@ -463,7 +472,7 @@
 
         
         <small class="category-image-credit">
-          Image: Photo by Yiğit Ali Atasoy on Unsplash
+          Image: Photo by Kanchanara on Unsplash
         </small>
         
 
@@ -473,14 +482,8 @@
 
     </div>
 
+    <!-- Only one Load More button -->
     <div class="category-load-more-wrapper" id="categoryLoadMoreWrapper" hidden>
-  <button
-    type="button"
-    class="category-load-more"
-    id="categoryLoadMore">
-    Load More News
-  </button>
-</div>
       <button
         type="button"
         class="category-load-more"
@@ -507,9 +510,11 @@
 
   if (!grid || !button || !wrapper) return;
 
-  const cards = Array.from(grid.querySelectorAll(".category-story-card"));
-  const batchSize = 6;
+  const cards = Array.from(
+    grid.querySelectorAll(".category-story-card")
+  );
 
+  const batchSize = 6;
   let visibleCount = Math.min(batchSize, cards.length);
 
   function updateCards() {
@@ -517,11 +522,16 @@
       card.hidden = index >= visibleCount;
     });
 
+    // Show button only when more than 6 stories exist
     wrapper.hidden = cards.length <= batchSize || visibleCount >= cards.length;
   }
 
   button.addEventListener("click", function () {
-    visibleCount = Math.min(visibleCount + batchSize, cards.length);
+    visibleCount = Math.min(
+      visibleCount + batchSize,
+      cards.length
+    );
+
     updateCards();
   });
 

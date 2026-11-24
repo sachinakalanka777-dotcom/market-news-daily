@@ -207,6 +207,15 @@
   margin-top: 35px;
 }
 
+/* Always respect the hidden attribute */
+.category-load-more-wrapper[hidden] {
+  display: none !important;
+}
+
+.category-story-card[hidden] {
+  display: none !important;
+}
+
 .category-load-more {
   padding: 13px 28px;
   border: 1px solid rgba(96, 165, 250, 0.45);
@@ -348,7 +357,7 @@
         
         <div class="category-story-image">
           <img
-            src="https://images.unsplash.com/photo-1755369346546-a33a261cac38?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjJ8fGdvbGQlMjBzaWx2ZXIlMjBvaWwlMjBjb21tb2RpdGllcyUyMHRyYWRpbmd8ZW58MXwwfHx8MTc5NTU0NjE5N3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
+            src="https://images.unsplash.com/photo-1737815914093-becb6c9ac064?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTB8fGdvbGQlMjBzaWx2ZXIlMjBvaWwlMjBjb21tb2RpdGllcyUyMHRyYWRpbmd8ZW58MXwwfHx8MTc5NTU0NjY5N3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
             alt="Gold Slumps as Investors Weigh Fed Outlook, Stocks Selloff"
             loading="lazy"
             decoding="async">
@@ -399,7 +408,7 @@
 
         
         <small class="category-image-credit">
-          Image: Photo by Anthony Aird on Unsplash
+          Image: Photo by suradeach saetang on Unsplash
         </small>
         
 
@@ -409,14 +418,8 @@
 
     </div>
 
+    <!-- Only one Load More button -->
     <div class="category-load-more-wrapper" id="categoryLoadMoreWrapper" hidden>
-  <button
-    type="button"
-    class="category-load-more"
-    id="categoryLoadMore">
-    Load More News
-  </button>
-</div>
       <button
         type="button"
         class="category-load-more"
@@ -443,9 +446,11 @@
 
   if (!grid || !button || !wrapper) return;
 
-  const cards = Array.from(grid.querySelectorAll(".category-story-card"));
-  const batchSize = 6;
+  const cards = Array.from(
+    grid.querySelectorAll(".category-story-card")
+  );
 
+  const batchSize = 6;
   let visibleCount = Math.min(batchSize, cards.length);
 
   function updateCards() {
@@ -453,11 +458,16 @@
       card.hidden = index >= visibleCount;
     });
 
+    // Show button only when more than 6 stories exist
     wrapper.hidden = cards.length <= batchSize || visibleCount >= cards.length;
   }
 
   button.addEventListener("click", function () {
-    visibleCount = Math.min(visibleCount + batchSize, cards.length);
+    visibleCount = Math.min(
+      visibleCount + batchSize,
+      cards.length
+    );
+
     updateCards();
   });
 
