@@ -2,10 +2,45 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Daily concise news briefing focused on factors that may affect US stock markets.">
-  <title>MarketPulse News | US Market Daily Brief - {{ date }}</title>
-  <link rel="stylesheet" href="static/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO Meta Tags -->
+  <title>MarketPulse News | Global Financial Market Briefing - {{ date }}</title>
+
+  <meta name="description" content="Stay informed with MarketPulse News: daily updates on global financial markets, stocks, business, economics and market-moving developments.">
+
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <link rel="canonical" href="https://marketpulsenews.online/">
+
+  <meta name="author" content="MarketPulse News">
+  <meta name="theme-color" content="#0b1220">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MarketPulse News">
+  <meta property="og:title" content="MarketPulse News | Global Financial Market Briefing">
+  <meta property="og:description" content="Daily financial market news, business updates and economic developments that matter to investors.">
+  <meta property="og:url" content="https://marketpulsenews.online/">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="MarketPulse News | Global Financial Market Briefing">
+  <meta name="twitter:description" content="Daily updates on global financial markets, stocks, business and economic developments.">
+
+  <!-- Website Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "MarketPulse News",
+    "url": "https://marketpulsenews.online/",
+    "description": "Daily financial market news, business updates and economic developments.",
+    "inLanguage": "en"
+  }
+  </script>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3T9BVERBBJ"></script>
@@ -15,31 +50,181 @@
     gtag('js', new Date());
     gtag('config', 'G-3T9BVERBBJ');
   </script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="static/style.css">
 </head>
+
 <body>
-<header class="topbar"><div class="container nav"><a class="brand" href="index.html"><span class="brand-mark">MP</span><span>Market<span class="accent">Pulse</span></span></a><nav><a href="index.html">Today</a><a href="archive/index.html">Archive</a></nav></div></header>
+
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">MP</span>
+      <span>Market<span class="accent">Pulse</span></span>
+    </a>
+    <nav>
+      <a href="index.html">Today</a>
+      <a href="archive/index.html">Archive</a>
+    </nav>
+  </div>
+</header>
+
 <main class="container">
-  <section class="hero"><div><div class="eyebrow">DAILY US MARKET BRIEFING</div><h1>Market-moving news.<br><span class="accent">Without the noise.</span></h1><p class="sub">A concise overview of economic, corporate and geopolitical developments that may influence US markets.</p></div><div class="date-panel"><span>EDITION</span><strong>{{ date }}</strong><small>Updated {{ generated_at_local or 'Not available' }}</small></div></section>
-  <section class="overview panel"><div class="section-kicker">EXECUTIVE SUMMARY</div><p>{{ market_overview }}</p><div class="meta-line">{{ stories|length }} selected stories · Summarization: {{ ai_provider|default('unknown') }}</div></section>
-  <div class="section-heading"><div><div class="section-kicker">WHAT MATTERS TODAY</div><h2>Top Market Drivers</h2></div><a href="archive/index.html" class="text-link">View archive →</a></div>
-  {% if stories %}<section class="stories-grid">
-  {% for story in stories %}<article class="story-card">
-    <div class="image-wrap">
-  {% if story.image %}
-    <img src="{{ story.image }}" alt="{{ story.headline }}" loading="lazy">
+
+  <section class="hero">
+    <div>
+      <div class="eyebrow">DAILY GLOBAL MARKET BRIEFING</div>
+      <h1>Market-moving news.<br><span class="accent">Without the noise.</span></h1>
+      <p class="sub">
+        A concise overview of economic, corporate and geopolitical developments
+        that may influence global financial markets.
+      </p>
+    </div>
+
+    <div class="date-panel">
+      <span>EDITION</span>
+      <strong>{{ date }}</strong>
+      <small>Updated {{ generated_at_local or 'Not available' }}</small>
+    </div>
+  </section>
+
+  <section class="overview panel">
+    <div class="section-kicker">EXECUTIVE SUMMARY</div>
+    <p>{{ market_overview }}</p>
+    <div class="meta-line">
+      {{ stories|length }} selected stories ·
+      Summarization: {{ ai_provider|default('unknown') }}
+    </div>
+  </section>
+
+  <div class="section-heading">
+    <div>
+      <div class="section-kicker">WHAT MATTERS TODAY</div>
+      <h2>Top Market Drivers</h2>
+    </div>
+    <a href="archive/index.html" class="text-link">View archive →</a>
+  </div>
+
+  {% if stories %}
+  <section class="stories-grid">
+
+    {% for story in stories %}
+    <article class="story-card">
+
+      <div class="image-wrap">
+        {% if story.image %}
+          <img src="{{ story.image }}" alt="{{ story.headline }}" loading="lazy">
+        {% else %}
+          <div class="image-placeholder">Image unavailable</div>
+        {% endif %}
+
+        <span class="rank">#{{ story.rank }}</span>
+        <span class="category">{{ story.category }}</span>
+      </div>
+
+      <div class="card-content">
+
+        <div class="tags">
+          <span class="impact {{ story.impact_type|lower }}">
+            {{ story.impact_type }}
+          </span>
+
+          {% for sector in story.sectors_affected %}
+          <span class="tag">{{ sector }}</span>
+          {% endfor %}
+        </div>
+
+        <h3>{{ story.headline }}</h3>
+
+        <p class="summary">{{ story.summary }}</p>
+
+        <div class="outlook">
+          <b>Market perspective</b><br>
+          {{ story.market_impact }}
+        </div>
+
+        <div class="card-bottom">
+          <span>
+            {{ story.source_name }}
+            {% if story.published_time and story.published_time != 'Date not supplied by source' %}
+              · {{ story.published_time[:16].replace('T',' ') }} UTC
+            {% endif %}
+          </span>
+
+          <a href="{{ story.source_url }}" target="_blank" rel="noopener noreferrer">
+            Original report ↗
+          </a>
+        </div>
+
+        {% if story.image_credit_html %}
+        <div class="photo-credit">
+          Image: {{ story.image_credit_html|safe }}
+        </div>
+        {% endif %}
+
+      </div>
+    </article>
+    {% endfor %}
+
+  </section>
+
   {% else %}
-    <div class="image-placeholder">Image unavailable</div>
+  <div class="panel empty">
+    <h3>No qualifying stories found</h3>
+    <p>
+      News feeds may be temporarily unavailable or no market-relevant items
+      were found in the selected time window. Check the source status below.
+    </p>
+  </div>
   {% endif %}
-  <span class="rank">#{{ story.rank }}</span>
-  <span class="category">{{ story.category }}</span>
-</div>
-    <div class="card-content"><div class="tags"><span class="impact {{ story.impact_type|lower }}">{{ story.impact_type }}</span>{% for sector in story.sectors_affected %}<span class="tag">{{ sector }}</span>{% endfor %}</div>
-      <h3>{{ story.headline }}</h3><p class="summary">{{ story.summary }}</p><div class="outlook"><b>Market perspective</b><br>{{ story.market_impact }}</div>
-      <div class="card-bottom"><span>{{ story.source_name }}{% if story.published_time and story.published_time != 'Date not supplied by source' %} · {{ story.published_time[:16].replace('T',' ') }} UTC{% endif %}</span><a href="{{ story.source_url }}" target="_blank" rel="noopener noreferrer">Original report ↗</a></div>
-      {% if story.image_credit_html %}<div class="photo-credit">Image: {{ story.image_credit_html|safe }}</div>{% endif %}
-    </div></article>{% endfor %}</section>
-  {% else %}<div class="panel empty"><h3>No qualifying stories found</h3><p>News feeds may be temporarily unavailable or no market-relevant items were found in the selected time window. Check the source status below.</p></div>{% endif %}
-  <section class="sources panel"><div class="section-kicker">AUTOMATION HEALTH</div><h2>News source status</h2><div class="source-list">{% for feed in feed_status|default([]) %}<div class="source-row"><span>{{ feed.source }}</span><span class="status {{ feed.status }}">{{ feed.status|upper }}{% if feed.status == 'ok' %} · {{ feed.items }} items{% endif %}</span></div>{% endfor %}</div><p class="meta-line">Collected {{ article_count_collected|default(0) }} unique candidate articles. Last generated: {{ generated_at_local|default('unknown') }}.</p></section>
+
+  <section class="sources panel">
+    <div class="section-kicker">AUTOMATION HEALTH</div>
+    <h2>News source status</h2>
+
+    <div class="source-list">
+      {% for feed in feed_status|default([]) %}
+      <div class="source-row">
+        <span>{{ feed.source }}</span>
+        <span class="status {{ feed.status }}">
+          {{ feed.status|upper }}
+          {% if feed.status == 'ok' %}
+            · {{ feed["items"] }} items
+          {% endif %}
+        </span>
+      </div>
+      {% endfor %}
+    </div>
+
+    <p class="meta-line">
+      Collected {{ article_count_collected|default(0) }} unique candidate articles.
+      Last generated: {{ generated_at_local|default('unknown') }}.
+    </p>
+  </section>
+
 </main>
-<footer><div class="container footer-inner"><a class="brand" href="index.html">Market<span class="accent">Pulse</span></a><p>AI-assisted news curation for informational purposes only. This is not investment advice. AI classifications may be incomplete or incorrect. Always read the original sources and conduct your own research.</p><small>© 2026 MarketPulse News · <a href="archive/index.html">Daily archive</a></small></div></footer>
-</body></html>
+
+<footer>
+  <div class="container footer-inner">
+
+    <a class="brand" href="index.html">
+      Market<span class="accent">Pulse</span>
+    </a>
+
+    <p>
+      AI-assisted news curation for informational purposes only.
+      This is not investment advice. AI classifications may be incomplete
+      or incorrect. Always read the original sources and conduct your own research.
+    </p>
+
+    <small>
+      © 2026 MarketPulse News ·
+      <a href="archive/index.html">Daily archive</a>
+    </small>
+
+  </div>
+</footer>
+
+</body>
+</html>

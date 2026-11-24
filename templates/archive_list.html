@@ -4,8 +4,51 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MarketPulse | News Archive</title>
+
+<title>MarketPulse News Archive | Previous Global Market Briefings</title>
+
+<meta name="description" content="Browse previous MarketPulse daily financial news briefings. Explore global stock markets, business, cryptocurrency, forex and economic news.">
+
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="MarketPulse News">
+<meta name="theme-color" content="#101827">
+
+<link rel="canonical" href="https://marketpulsenews.online/archive/">
 <link rel="stylesheet" href="../static/style.css">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MarketPulse News">
+<meta property="og:title" content="MarketPulse News | Global Financial News Archive">
+<meta property="og:description" content="Browse previous daily global financial market briefings and business news.">
+<meta property="og:url" content="https://marketpulsenews.online/archive/">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MarketPulse News Archive">
+<meta name="twitter:description" content="Explore previous global financial market briefings.">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "MarketPulse News Archive",
+  "description": "Previous daily global financial market news briefings.",
+  "url": "https://marketpulsenews.online/archive/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "MarketPulse News",
+    "url": "https://marketpulsenews.online/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MarketPulse News",
+    "url": "https://marketpulsenews.online/"
+  }
+}
+</script>
 
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3T9BVERBBJ"></script>
@@ -16,9 +59,41 @@
   gtag('config', 'G-3T9BVERBBJ');
 </script>
 </head>
+
 <body>
-<header class="topbar"><div class="container nav"><a class="brand" href="../index.html"><span class="brand-mark">MP</span>Market<span class="accent">Pulse</span></a><nav><a href="../index.html">Today</a><a href="index.html">Archive</a></nav></div></header>
-<main class="container archive-page"><div class="section-kicker">PAST BRIEFINGS</div><h1>News Archive</h1><p class="sub">Browse previous daily US market briefings.</p><div class="archive-list">{% for date in dates %}<a href="{{ date }}/index.html"><span>{{ date }}</span><b>Read briefing →</b></a>{% else %}<p>No archived briefings yet.</p>{% endfor %}</div></main>
-<footer><div class="container footer-inner"><p>MarketPulse News · Informational purposes only, not investment advice.</p></div></footer>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark">MP</span>Market<span class="accent">Pulse</span>
+    </a>
+    <nav>
+      <a href="../index.html">Today</a>
+      <a href="index.html">Archive</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container archive-page">
+  <div class="section-kicker">PAST BRIEFINGS</div>
+  <h1>Global Financial News Archive</h1>
+  <p class="sub">Browse previous daily global financial market briefings covering stocks, business, cryptocurrency, forex and the economy.</p>
+
+  <div class="archive-list">
+    {% for date in dates %}
+    <a href="{{ date }}/index.html">
+      <span>{{ date }}</span>
+      <b>Read briefing →</b>
+    </a>
+    {% else %}
+    <p>No archived briefings yet.</p>
+    {% endfor %}
+  </div>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <p>MarketPulse News · Informational purposes only, not investment advice.</p>
+  </div>
+</footer>
 </body>
 </html>
