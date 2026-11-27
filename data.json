@@ -1,227 +1,300 @@
 {
-  "market_overview": "Global financial markets faced heightened volatility as stubborn U.S. inflation data spurred expectations of tighter monetary policy, driving gold lower and roiling tech stocks. Dip buyers subsequently emerged to cushion steep declines in major equity indexes and digital assets.",
+  "market_overview": "Global markets are navigating a volatile holiday-shortened period influenced by fluctuating interest rate expectations and tech sector movements. Currencies and commodities reflect heightened caution as investors monitor policy leadership shifts and government interventions worldwide.",
   "stories": [
     {
       "rank": 1,
-      "article_id": "a1",
-      "headline": "Fed's Preferred Inflation Metric Reaches 3.8% in October",
-      "summary": "The core personal consumption expenditures price index accelerated to an annual rate of 3.8% in October, matching Dow Jones consensus estimates. The persistent price pressure complicates the policy outlook for the central bank heading into 2027.",
+      "article_id": "a0",
+      "headline": "Stock Futures Rise as Wall Street Concludes Holiday-Shortened Week",
+      "summary": "United States stock index futures ticked upward as traders prepared to conclude a shortened trading week. The market action followed volatile trading sessions surrounding the Thanksgiving holiday. Investors continue to monitor broader market sentiment following recent turbulence.",
       "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
-      "published_time": "2026-11-25T14:18:45+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Sticky inflation figures could force policymakers to maintain restrictive interest rates for an extended period.",
+      "source_url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html",
+      "published_time": "2026-11-27T01:45:16+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "Equities may see mild upward momentum during thinned holiday volume.",
       "sectors_affected": [
         "Financials",
-        "Real Estate",
-        "Consumer Discretionary"
+        "Information Technology"
       ],
-      "category": "Federal Reserve",
-      "image_keywords": "inflation chart graph",
-      "image": "https://images.unsplash.com/photo-1610731364280-cda6aadfeaf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjZ8fGluZmxhdGlvbiUyMGNoYXJ0JTIwZ3JhcGh8ZW58MXwwfHx8MTc5NTY1ODA4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Alexandra Vázquez on Unsplash",
+      "category": "Markets",
+      "image_keywords": "['stock exchange', 'trading floor']",
+      "image": "https://images.unsplash.com/photo-1549421263-6064833b071b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTh8fFN0b2NrJTIwRnV0dXJlcyUyMFJpc2UlMjBXYWxsfGVufDF8MHx8fDE3OTU3NDQ2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Ishant Mishra on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@alexvazpx?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Alexandra Vázquez</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@ishant_mishra54?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Ishant Mishra</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 2,
-      "article_id": "a0",
-      "headline": "Wall Street Recovers Deep Losses as Dip Buyers Step In",
-      "summary": "Major U.S. stock indices experienced sharp intraday swings as dip buyers countered a heavy selloff that pushed the Nasdaq 100 near bear-market territory. The tech-heavy index finished down 1%, paring the majority of steep losses triggered by doubts over artificial-intelligence investments.",
+      "article_id": "a4",
+      "headline": "US Dollar Poised for Longest Monthly Winning Streak Since 2024",
+      "summary": "The US dollar is heading toward its longest monthly streak of gains in two years. Demand for the greenback has been supported by elevated interest rates and safe-haven buying amid volatility in artificial intelligence shares. Investors are continuing to favor the currency amid broader financial market uncertainty.",
       "source_name": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/videos/2026-11-25/stocks-pare-ai-driven-losses-as-dip-buyers-emerge-video",
-      "published_time": "2026-11-25T22:21:45+00:00",
-      "impact_type": "Neutral",
-      "market_impact": "Late-session dip buying may offer temporary support to equity markets following extreme tech sector turbulence.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-26/-dollar-storm-greenback-on-track-for-longest-winning-run-since-2024",
+      "published_time": "2026-11-26T23:44:27+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "Sustained dollar strength could put pressure on rival currencies and multinational earnings.",
       "sectors_affected": [
-        "Technology",
-        "Communication Services"
+        "Financials",
+        "Information Technology"
       ],
-      "category": "Markets",
-      "image_keywords": "stock market trading",
-      "image": "https://images.unsplash.com/photo-1629339942248-45d4b10c8c2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8OXx8c3RvY2slMjBtYXJrZXQlMjB0cmFkaW5nfGVufDF8MHx8fDE3OTU2NTgwODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Kanchanara on Unsplash",
+      "category": "Forex",
+      "image_keywords": "['dollar banknote', 'currency exchange']",
+      "image": "https://images.unsplash.com/photo-1671469905567-bae5fcd63bd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mjl8fGRvbGxhciUyMGJhbmtub3RlJTIwY3VycmVuY3klMjBleGNoYW5nZXxlbnwxfDB8fHwxNzk1NzQ0NjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Jonathan Borba on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@kanchanara?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Kanchanara</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@jonathanborba?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Jonathan Borba</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 3,
-      "article_id": "a6",
-      "headline": "Gold Drops to One-Year Low Following Hot US Inflation Print",
-      "summary": "Gold dropped to its lowest price level in more than a year following the release of elevated U.S. inflation figures. The stubborn inflation data heightened investor concerns that the Federal Reserve will continue to raise interest rates.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/25/gold-metals-federal-reserve-inflation.html",
-      "published_time": "2026-11-25T23:50:53+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Higher interest rate expectations may continue to pressure non-yielding assets such as gold.",
+      "article_id": "a1",
+      "headline": "Gold Stabilizes as Traders Evaluate Fed Rate Path and Tech Rebound",
+      "summary": "Gold prices steadied following a volatile trading week. Market participants weighed expectations of Federal Reserve interest-rate increases against a wider recovery in equities. The stabilization in bullion was supported by a parallel rebound in US technology shares.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-26/gold-steadies-as-fed-rate-path-and-ai-stocks-frame-volatile-week",
+      "published_time": "2026-11-26T23:53:35+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "Precious metals may remain rangebound as interest rate expectations fluctuate.",
       "sectors_affected": [
         "Materials",
-        "Precious Metals",
-        "Mining"
+        "Information Technology"
       ],
       "category": "Commodities",
-      "image_keywords": "gold bars bullion",
-      "image": "https://images.unsplash.com/photo-1772770176973-1af1089ff373?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8OXx8Z29sZCUyMGJhcnMlMjBidWxsaW9ufGVufDF8MHx8fDE3OTU2NTgwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Andy Wang on Unsplash",
+      "image_keywords": "['gold bullion', 'metal bars']",
+      "image": "https://images.unsplash.com/photo-1610375461246-83df859d849d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MXx8Z29sZCUyMGJ1bGxpb24lMjBtZXRhbCUyMGJhcnN8ZW58MXwwfHx8MTc5NTc0NDY1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Jingming Pan on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@space_launch_system?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Andy Wang</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@pokmer?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Jingming Pan</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 4,
-      "article_id": "a5",
-      "headline": "Anthropic Falls Below IPO Price to Pressure Broader AI Sector",
-      "summary": "Shares of Anthropic dropped below their initial public offering price in post-debut trading. The decline in the newly public stock has created an overhang for other artificial intelligence companies across equity markets.",
+      "article_id": "a2",
+      "headline": "Anthropic Post-IPO Slump Weighs on Artificial Intelligence Stocks",
+      "summary": "Shares of Anthropic are trading beneath their initial public offering price. The weak performance has created a broader overhang on peer companies in the artificial intelligence sector. Market participants are monitoring the name as an indicator of broader tech sentiment.",
       "source_name": "CNBC Top News",
       "source_url": "https://www.cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html",
       "published_time": "2026-11-25T16:05:25+00:00",
       "impact_type": "Bearish",
-      "market_impact": "Continued weakness in high-profile new listings could dampen investor enthusiasm for future technology offerings.",
+      "market_impact": "Valuation scrutiny could dampen sentiment across high-growth technology shares.",
       "sectors_affected": [
-        "Technology",
-        "Software"
+        "Information Technology"
       ],
       "category": "IPO",
-      "image_keywords": "stock exchange monitor",
-      "image": "https://images.unsplash.com/photo-1651340981821-b519ad14da7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mnx8c3RvY2slMjBleGNoYW5nZSUyMG1vbml0b3J8ZW58MXwwfHx8MTc5NTY1ODA4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Anne Nygård on Unsplash",
+      "image_keywords": "['artificial intelligence', 'stock chart']",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTR8fGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2UlMjBzdG9jayUyMGNoYXJ0fGVufDF8MHx8fDE3OTU3NDQ2NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Steve A Johnson on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@polarmermaid?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Anne Nygård</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@steve_j?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Steve A Johnson</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 5,
-      "article_id": "a25",
-      "headline": "Bank of Korea Increases Benchmark Rate to 3.25%",
-      "summary": "South Korea's central bank raised its benchmark interest rate by 25 basis points to 3.25% in its final policy decision of the year. The rate increase matched economist expectations and came alongside an upgraded economic growth forecast.",
-      "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html",
-      "published_time": "2026-11-26T01:50:21+00:00",
-      "impact_type": "Neutral",
-      "market_impact": "The policy hike brings South Korean interest rates to a two-year high while acknowledging sturdier regional economic growth.",
-      "sectors_affected": [
-        "Financials",
-        "Banking"
-      ],
-      "category": "Banking",
-      "image_keywords": "central bank building",
-      "image": "https://images.unsplash.com/photo-1609958181293-a4dd3a53bd4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8NXx8Y2VudHJhbCUyMGJhbmslMjBidWlsZGluZ3xlbnwxfDB8fHwxNzk1NjU4MDgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Markus Spiske on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@markusspiske?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Markus Spiske</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 6,
       "article_id": "a3",
-      "headline": "Hedge Fund Situational Awareness Plummets 65% on Leveraged AI Bets",
-      "summary": "Hedge fund Situational Awareness suffered a 65% post-fee loss during the third quarter. The steep decline stemmed from highly leveraged bets on artificial intelligence companies that brought the fund close to collapse in July.",
-      "source_name": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-11-26/situational-awareness-ai-65-hedge-fund-third-quarter-wsj-says",
-      "published_time": "2026-11-26T01:11:41+00:00",
-      "impact_type": "Bearish",
-      "market_impact": "Significant hedge fund losses may prompt institutional investors to re-evaluate leverage and risk management in tech holdings.",
-      "sectors_affected": [
-        "Financials",
-        "Asset Management",
-        "Technology"
-      ],
-      "category": "Business",
-      "image_keywords": "financial office charts",
-      "image": "https://images.unsplash.com/photo-1758873271761-6cfe9b4f000c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjZ8fGZpbmFuY2lhbCUyMG9mZmljZSUyMGNoYXJ0c3xlbnwxfDB8fHwxNzk1NjU4MDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Vitaly Gariev on Unsplash",
-      "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@silverkblack?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Vitaly Gariev</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
-    },
-    {
-      "rank": 7,
-      "article_id": "a8",
-      "headline": "UAE Forecasts Up to 8% Economic Expansion as IMF Raises Outlook",
-      "summary": "The United Arab Emirates stated it is optimistic about delivering 7% to 8% economic growth next year. The projection is supported by an updated International Monetary Fund forecast and reliance on a diversified economic strategy.",
+      "headline": "Trump Calls for Investigation into Upward Third-Quarter GDP Revision",
+      "summary": "President Donald Trump labeled the recent upward revision to third-quarter gross domestic product an error. He stated that the substantial statistical change should be immediately investigated. The revised data showed stronger-than-initially-reported economic growth for the quarter.",
       "source_name": "CNBC Top News",
-      "source_url": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
-      "published_time": "2026-11-25T04:06:01+00:00",
-      "impact_type": "Bullish",
-      "market_impact": "Strong economic expansion targets could encourage sustained capital deployment into Gulf regional markets.",
+      "source_url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+      "published_time": "2026-11-26T21:13:17+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "Disputes over official economic releases could inject uncertainty into macro projections.",
       "sectors_affected": [
-        "Energy",
-        "Real Estate",
         "Financials"
       ],
       "category": "Economy",
-      "image_keywords": "city skyline skyscrapers",
-      "image": "https://images.unsplash.com/photo-1638205022792-85c33651ae2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTZ8fGNpdHklMjBza3lsaW5lJTIwc2t5c2NyYXBlcnN8ZW58MXwwfHx8MTc5NTY1ODA4NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Rihards Sergis on Unsplash",
+      "image_keywords": "['government building', 'economic data']",
+      "image": "https://images.unsplash.com/photo-1469248620856-e8c981d98aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTF8fGdvdmVybm1lbnQlMjBidWlsZGluZyUyMGVjb25vbWljJTIwZGF0YXxlbnwxfDB8fHwxNzk1NzQ0NjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Zac Nielson on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@rsergis99?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Rihards Sergis</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@zacherynielson?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Zac Nielson</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 6,
+      "article_id": "a5",
+      "headline": "Japanese Bank Stocks Face Unwind Risks as Funding Costs Rise",
+      "summary": "Shares of Japanese banks face an increasing risk of an unwind as sector competition increases. Higher domestic interest rates are offering diminishing boosts to profits as funding costs escalate. The margin pressures threaten to alter the earnings trajectory of the country's lenders.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-26/japan-bank-shares-risk-further-unwind-as-funding-cost-bites",
+      "published_time": "2026-11-26T23:41:36+00:00",
+      "impact_type": "Bearish",
+      "market_impact": "Japanese financial stocks could face downside pressure if margins contract further.",
+      "sectors_affected": [
+        "Financials"
+      ],
+      "category": "Banking",
+      "image_keywords": "['bank building', 'japanese yen']",
+      "image": "https://images.unsplash.com/photo-1638879706487-646f8631b0a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mnx8YmFuayUyMGJ1aWxkaW5nJTIwamFwYW5lc2UlMjB5ZW58ZW58MXwwfHx8MTc5NTc0NDY1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Franck V. on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@possessedphotography?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Franck V.</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 7,
+      "article_id": "a7",
+      "headline": "South Korea Considers Expanding Stock Market Stabilization Fund",
+      "summary": "South Korea is weighing an expansion of its 10.76 trillion won stock market stabilization fund. Authorities are preparing for potential market intervention amid heightened market volatility. The initiative was reported by the local Maeil Business Newspaper.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-27/south-korea-reportedly-mulls-expanding-stock-stabilization-fund",
+      "published_time": "2026-11-27T01:22:32+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "Potential state intervention could help stabilize South Korean equity benchmarks.",
+      "sectors_affected": [
+        "Financials"
+      ],
+      "category": "Markets",
+      "image_keywords": "['seoul skyline', 'stock market']",
+      "image": "https://images.unsplash.com/photo-1781801387371-7da93b791759?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTR8fHNlb3VsJTIwc2t5bGluZSUyMHN0b2NrJTIwbWFya2V0fGVufDF8MHx8fDE3OTU3NDQ2NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Ignat Khailov on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@ignat_one?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Ignat Khailov</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
       "rank": 8,
-      "article_id": "a17",
-      "headline": "SEC Advisory Group to Convene on Tokenized Securities and Oversight",
-      "summary": "The SEC's Investor Advisory Committee announced a virtual public meeting scheduled for December 3. The agenda focuses on the trading of tokenized securities, corporate bankruptcy developments, and accounting oversight.",
+      "article_id": "a9",
+      "headline": "Bitcoin Holds Above $60,500 Despite Rate and Regulatory Pressures",
+      "summary": "Bitcoin traded above the $60,500 threshold following recent market headwinds. The cryptocurrency continues to navigate pressure from elevated interest rates and ongoing regulatory concerns. Investors remain watchful of broader risk sentiment influencing digital asset performance.",
+      "source_name": "Investing.com Crypto",
+      "source_url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-recovers-to-605k-but-rates-regulatory-fears-persist-5052101",
+      "published_time": "2026-11-26T22:11:57+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "Cryptocurrency assets may experience choppy trading while monetary policy remains restrictive.",
+      "sectors_affected": [
+        "Financials",
+        "Information Technology"
+      ],
+      "category": "Crypto",
+      "image_keywords": "['bitcoin coin', 'digital cryptocurrency']",
+      "image": "https://images.unsplash.com/photo-1657525641283-76b45d0534ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mjl8fGJpdGNvaW4lMjBjb2luJTIwZGlnaXRhbCUyMGNyeXB0b2N1cnJlbmN5fGVufDF8MHx8fDE3OTU3NDQ2NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Mariia Berezovsky on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@mariiaberezovsky?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Mariia Berezovsky</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 9,
+      "article_id": "a10",
+      "headline": "Australia Passes Domestic Gas Reservation Mandate for LNG Exporters",
+      "summary": "Australia has approved legislation requiring liquefied natural gas exporters to reserve up to 20% of their production for the domestic market. The measure impacts energy producers operating within the nation. The policy aims to secure domestic supplies at the expense of unconstrained export volumes.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-26/australia-set-to-pass-gas-reserve-law-in-upset-to-lng-exporters",
+      "published_time": "2026-11-26T13:31:00+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "Export revenues for Australian natural gas producers may be constrained under the new rules.",
+      "sectors_affected": [
+        "Energy",
+        "Utilities"
+      ],
+      "category": "Commodities",
+      "image_keywords": "['lng tanker', 'gas terminal']",
+      "image": "https://images.unsplash.com/photo-1768913737603-fe3f3d6bf8e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTl8fGxuZyUyMHRhbmtlciUyMGdhcyUyMHRlcm1pbmFsfGVufDF8MHx8fDE3OTU3NDQ2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by You Le on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@le_y0u?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">You Le</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 10,
+      "article_id": "a15",
+      "headline": "SEC Investor Advisory Committee Schedules Public Meeting on Tokenized Securities",
+      "summary": "The Securities and Exchange Commission's Investor Advisory Committee announced a virtual public meeting for December 3. The agenda includes discussions on tokenized securities trading, bankruptcy issues, and accounting oversight. The proceedings will be publicly webcast.",
       "source_name": "SEC Press Releases",
       "source_url": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
       "published_time": "2026-11-25T14:10:24+00:00",
       "impact_type": "Neutral",
-      "market_impact": "Regulatory deliberations on tokenized securities could precede formal policy guidelines for digital asset trading.",
+      "market_impact": "Regulatory clarity or scrutiny around tokenized assets could influence digital finance projects.",
       "sectors_affected": [
         "Financials",
-        "Technology",
-        "Capital Markets"
+        "Information Technology"
       ],
       "category": "Regulation",
-      "image_keywords": "government seal podium",
-      "image": "https://images.unsplash.com/photo-1623681143855-e1d48cf03ca1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8M3x8QWR2aXNvcnklMjBHcm91cCUyMENvbnZlbmUlMjBUb2tlbml6ZWR8ZW58MXwwfHx8MTc5NTY1ODA4NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Ruben Hanssen on Unsplash",
+      "image_keywords": "['sec seal', 'regulatory compliance']",
+      "image": "https://images.unsplash.com/photo-1586974175111-967d0ab10c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjR8fHNlYyUyMHNlYWwlMjByZWd1bGF0b3J5JTIwY29tcGxpYW5jZXxlbnwxfDB8fHwxNzk1NzQ0NjYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Martin Sanchez on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@rhfhanssen?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Ruben Hanssen</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@martinsanchez?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Martin Sanchez</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
-      "rank": 9,
-      "article_id": "a27",
-      "headline": "Brazil's Lula Considers Bradesco Chairman for Government Post",
-      "summary": "Brazilian President Luiz Inácio Lula da Silva has approached Bradesco Chairman Luiz Carlos Trabuco Cappi about entering his administration. The potential appointment is intended to help soothe market anxieties over Brazil's deteriorating fiscal trajectory.",
+      "rank": 11,
+      "article_id": "a21",
+      "headline": "Brazil Names Bradesco Chairman as Finance Minister to Reassure Markets",
+      "summary": "President Luiz Inácio Lula da Silva named Bradesco Chairman Luiz Carlos Trabuco Cappi as Brazil's new finance minister. The selection brings a prominent commercial banker into the top economic policymaking role. The move is designed to reinforce investor confidence in the nation's fiscal trajectory.",
       "source_name": "Bloomberg Markets",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-11-26/lula-sounds-out-bradesco-s-luiz-trabuco-to-join-his-government",
-      "published_time": "2026-11-26T01:07:45+00:00",
-      "impact_type": "Neutral",
-      "market_impact": "Bringing an established private banker into the government could help moderate fiscal risk premiums on Brazilian assets.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-26/lula-taps-bradesco-chairman-as-finance-chief-to-reassure-markets",
+      "published_time": "2026-11-26T23:18:21+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "Brazilian assets could benefit from improved investor confidence following the appointment.",
       "sectors_affected": [
-        "Financials",
-        "Emerging Markets"
+        "Financials"
       ],
-      "category": "Geopolitics",
-      "image_keywords": "presidential government palace",
-      "image": "https://images.unsplash.com/photo-1767268857765-8c5e7a7fdc99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjJ8fHByZXNpZGVudGlhbCUyMGdvdmVybm1lbnQlMjBwYWxhY2V8ZW58MXwwfHx8MTc5NTY1ODA4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Marcel L. on Unsplash",
+      "category": "Business",
+      "image_keywords": "['brazil flag', 'banking executive']",
+      "image": "https://images.unsplash.com/photo-1588351149898-0bac5e5f8ad2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjF8fGJyYXppbCUyMGZsYWclMjBiYW5raW5nJTIwZXhlY3V0aXZlfGVufDF8MHx8fDE3OTU3NDQ2NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Ferran Feixas on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@ml_75?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Marcel L.</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@ferranfeixas?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Ferran Feixas</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     },
     {
-      "rank": 10,
-      "article_id": "a11",
-      "headline": "Bitcoin Rebounds After Losses Linked to ETF Outflows and Economic Data",
-      "summary": "Bitcoin recovered following a wave of selling driven by crypto exchange-traded fund outflows. The previous slump was exacerbated by an equities rout in artificial intelligence names and hotter-than-anticipated U.S. economic data.",
-      "source_name": "Investing.com Crypto",
-      "source_url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-extends-losses-below-59000-as-etf-outflows-weigh-5049793",
-      "published_time": "2026-11-25T23:02:43+00:00",
+      "rank": 12,
+      "article_id": "a22",
+      "headline": "Pablo Hernández de Cos Backed to Succeed Christine Lagarde at ECB",
+      "summary": "Spain's Pablo Hernández de Cos secured the required backing to become the next president of the European Central Bank. He is scheduled to succeed Christine Lagarde next year amid a backdrop of political uncertainty. His tenure will begin during a phase of choppy economic expansion across the euro area.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
+      "published_time": "2026-11-26T15:28:26+00:00",
       "impact_type": "Neutral",
-      "market_impact": "The price rebound may bring temporary stability to crypto markets after recent macro-driven liquidations.",
+      "market_impact": "European debt and currency markets will monitor the future leadership change for monetary policy signals.",
       "sectors_affected": [
-        "Financial Technology",
-        "Digital Assets"
+        "Financials"
       ],
-      "category": "Crypto",
-      "image_keywords": "bitcoin cryptocurrency coin",
-      "image": "https://images.unsplash.com/photo-1519162584292-56dfc9eb5db4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MjN8fGJpdGNvaW4lMjBjcnlwdG9jdXJyZW5jeSUyMGNvaW58ZW58MXwwfHx8MTc5NTY1ODA4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_credit": "Photo by Thought Catalog on Unsplash",
+      "category": "Banking",
+      "image_keywords": "['european central bank', 'frankfurt skyline']",
+      "image": "https://images.unsplash.com/photo-1662332942992-90f8bae7c66c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTZ8fGV1cm9wZWFuJTIwY2VudHJhbCUyMGJhbmslMjBmcmFua2Z1cnQlMjBza3lsaW5lfGVufDF8MHx8fDE3OTU3NDQ2NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Jo Heubeck & Domi Pfenninger on Unsplash",
       "summary_method": "Gemini",
-      "image_credit_html": "<a href=\"https://unsplash.com/@thoughtcatalog?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Thought Catalog</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+      "image_credit_html": "<a href=\"https://unsplash.com/@fujibros?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Jo Heubeck & Domi Pfenninger</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 13,
+      "article_id": "a23",
+      "headline": "Malaysia Considers Intervention If AirAsia Financial Woes Escalate",
+      "summary": "Malaysia may intervene to support AirAsia Group if the airline's financial distress deepens. Second Finance Minister Amir Hamzah Azizan confirmed that the government is monitoring the situation to preserve domestic air transport connectivity. Potential measures would focus on maintaining national aviation infrastructure.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-26/malaysia-says-may-intervene-if-airasia-s-financial-woes-worsen",
+      "published_time": "2026-11-26T11:22:52+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "AirAsia debt and equity instruments could see state support if operating conditions deteriorate.",
+      "sectors_affected": [
+        "Industrials",
+        "Consumer Discretionary"
+      ],
+      "category": "Business",
+      "image_keywords": "['commercial airplane', 'airport tarmac']",
+      "image": "https://images.unsplash.com/photo-1793956573666-06de9a801e9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8N3x8Y29tbWVyY2lhbCUyMGFpcnBsYW5lJTIwYWlycG9ydCUyMHRhcm1hY3xlbnwxfDB8fHwxNzk1NzQ0NjYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Szcze hoo on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@szczehoo?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Szcze hoo</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 14,
+      "article_id": "a6",
+      "headline": "UAE Targets 7% to 8% Economic Growth Following IMF Forecast Upgrade",
+      "summary": "The United Arab Emirates stated it is optimistic about achieving between 7% and 8% economic expansion next year. A government minister noted that the growth target is underpinned by an alternative economic model. The optimism coincides with an upward revision in the country's economic forecast by the International Monetary Fund.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
+      "published_time": "2026-11-25T04:06:01+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "Regional investment flows could be supported by favorable growth expectations in the Emirates.",
+      "sectors_affected": [
+        "Energy",
+        "Real Estate"
+      ],
+      "category": "Economy",
+      "image_keywords": "['dubai skyline', 'economic development']",
+      "image": "https://images.unsplash.com/photo-1591018809419-e56a7c5f12e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mjl8fGR1YmFpJTIwc2t5bGluZSUyMGVjb25vbWljJTIwZGV2ZWxvcG1lbnR8ZW58MXwwfHx8MTc5NTc0NDY2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Dovlet Hojayev on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@dhojayev?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Dovlet Hojayev</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
     }
   ],
   "ai_provider": "Gemini",
-  "date": "2026-11-26",
-  "generated_at_utc": "2026-11-26T01:53:26.292550+00:00",
-  "generated_at_local": "2026-11-26 07:23:26 +0530",
-  "article_count_collected": 37,
+  "date": "2026-11-27",
+  "generated_at_utc": "2026-11-27T01:53:43.686857+00:00",
+  "generated_at_local": "2026-11-27 07:23:43 +0530",
+  "article_count_collected": 30,
   "feed_status": [
     {
       "source": "BBC Business",
@@ -231,12 +304,12 @@
     {
       "source": "CNBC Top News",
       "status": "ok",
-      "items": 12
+      "items": 8
     },
     {
       "source": "Federal Reserve",
       "status": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "source": "SEC Press Releases",
@@ -246,7 +319,7 @@
     {
       "source": "MarketWatch Top Stories",
       "status": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "source": "Bloomberg Markets",
@@ -256,12 +329,12 @@
     {
       "source": "Investing.com Markets",
       "status": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "source": "Investing.com Crypto",
       "status": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "source": "Investing.com Forex",
@@ -271,7 +344,7 @@
     {
       "source": "Investing.com Commodities",
       "status": "ok",
-      "items": 1
+      "items": 0
     }
   ]
 }
