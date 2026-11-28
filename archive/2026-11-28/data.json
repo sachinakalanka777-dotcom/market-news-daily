@@ -1,0 +1,293 @@
+{
+  "market_overview": "Global equity markets rebounded to cap a volatile week as dip buyers stepped into beaten-down technology shares, while safe-haven demand for government bonds subsided. Meanwhile, the US dollar maintained strength and cryptocurrency markets faced renewed pressure near key technical levels.",
+  "stories": [
+    {
+      "rank": 1,
+      "article_id": "a0",
+      "headline": "Anthropic Shares Advance Past IPO Price After Turbulent Debut Week",
+      "summary": "Anthropic PBC finished its opening calendar week on the Nasdaq above its initial public offering price of $83. The artificial intelligence firm concluded a volatile first week of trading on a positive trajectory following its record-setting market entrance.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-27/anthropic-shares-jump-after-volatile-first-week-since-record-ipo",
+      "published_time": "2026-11-27T16:49:08+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "Strong post-debut performance may bolster sentiment toward public artificial intelligence offerings.",
+      "sectors_affected": [
+        "Technology",
+        "Software"
+      ],
+      "category": "IPO",
+      "image_keywords": "['stock ticker', 'nasdaq trading floor']",
+      "image": "https://images.unsplash.com/photo-1781643434395-5c83f8f9c9bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8M3x8QW50aHJvcGljJTIwU2hhcmVzJTIwQWR2YW5jZSUyMFBhc3R8ZW58MXwwfHx8MTc5NTgzMDY0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Brecht Corbeel on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@brechtcorbeel?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Brecht Corbeel</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 2,
+      "article_id": "a1",
+      "headline": "S&P 500 Posts Strongest Weekly Gain Since April 2025 as AI Stocks Rally",
+      "summary": "Wall Street finished a turbulent trading week with broad gains, driven by a renewed rebound across the artificial intelligence sector. The equity advance reduced investor demand for safe-haven currencies and US Treasuries.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
+      "published_time": "2026-11-26T21:59:57+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "Renewed appetite for large-cap tech could provide support for broader equity benchmarks.",
+      "sectors_affected": [
+        "Technology",
+        "Broad Market"
+      ],
+      "category": "Markets",
+      "image_keywords": "['stock chart', 'wall street']",
+      "image": "https://images.unsplash.com/photo-1613986359727-2be0b6ea02c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8N3x8c3RvY2slMjBjaGFydCUyMHdhbGwlMjBzdHJlZXR8ZW58MXwwfHx8MTc5NTgzMDY0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Paul-Alain Hunt on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@paulvanlieshouthunt?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Paul-Alain Hunt</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 3,
+      "article_id": "a5",
+      "headline": "Trump Calls for Investigation Into Upward Third-Quarter GDP Revision",
+      "summary": "President Donald Trump labeled a major upward revision to third-quarter gross domestic product a record-setting error and demanded an immediate probe. The administration questioned the credibility of the economic data adjustment.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+      "published_time": "2026-11-27T15:52:00+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "Disputes over official growth metrics could introduce political uncertainty into economic forecasting.",
+      "sectors_affected": [
+        "Government",
+        "Broad Market"
+      ],
+      "category": "Economy",
+      "image_keywords": "['capitol building', 'economic data']",
+      "image": "https://images.unsplash.com/photo-1598134115217-a2fd543030f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8NXx8Y2FwaXRvbCUyMGJ1aWxkaW5nJTIwZWNvbm9taWMlMjBkYXRhfGVufDF8MHx8fDE3OTU4MzA2NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Syed F Hashemi on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@sfhashemi?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Syed F Hashemi</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 4,
+      "article_id": "a6",
+      "headline": "US Dollar Eyes Longest Monthly Winning Streak in Two Years",
+      "summary": "The greenback tracked toward its longest continuous monthly gain since 2024 amid shifting dynamics in AI trades and elevated interest rates. Investors turned to the currency as a defensive asset during recent market volatility.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-26/-dollar-storm-greenback-on-track-for-longest-winning-run-since-2024",
+      "published_time": "2026-11-26T23:44:27+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "Sustained dollar strength may weigh on multinational earnings and international trade balances.",
+      "sectors_affected": [
+        "Financials",
+        "Forex"
+      ],
+      "category": "Forex",
+      "image_keywords": "['us dollar', 'currency exchange']",
+      "image": "https://images.unsplash.com/photo-1744130400729-c4aee523f490?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8NHx8dXMlMjBkb2xsYXIlMjBjdXJyZW5jeSUyMGV4Y2hhbmdlfGVufDF8MHx8fDE3OTU4MzA2NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Logan Voss on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@loganvoss?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Logan Voss</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 5,
+      "article_id": "a9",
+      "headline": "US Moves to Prioritize AI Competition Against China",
+      "summary": "Signals from Washington indicate the US government is prepared to actively intervene to maintain its leadership over China in artificial intelligence development. The national stance on technological supremacy fueled trading volatility on Wall Street during the holiday week.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-27/trump-s-ai-gambit-fuels-wild-thanksgiving-week-on-wall-street",
+      "published_time": "2026-11-27T18:43:36+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "Government intervention and geopolitical trade competition may heighten volatility in semiconductor and AI investments.",
+      "sectors_affected": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "category": "Geopolitics",
+      "image_keywords": "['technology chip', 'flags international']",
+      "image": "https://images.unsplash.com/photo-1784913109047-4f618c3827a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTZ8fHRlY2hub2xvZ3klMjBjaGlwJTIwZmxhZ3MlMjBpbnRlcm5hdGlvbmFsfGVufDF8MHx8fDE3OTU4MzA2NDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Julia Taubitz on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@justmejuliee?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Julia Taubitz</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 6,
+      "article_id": "a12",
+      "headline": "Bitcoin Slips Below $60,000 While Maintaining Weekly Gain",
+      "summary": "Bitcoin fell back under the $60,000 threshold following recent trading fluctuations. Despite the retreat, the token remained positioned to register its first weekly gain in eight weeks.",
+      "source_name": "Investing.com Crypto",
+      "source_url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-recovers-to-615k-set-for-first-positive-week-in-8-5052949",
+      "published_time": "2026-11-27T14:57:17+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "Fluctuations around key threshold levels may keep broader digital asset markets cautious.",
+      "sectors_affected": [
+        "Digital Assets",
+        "Financial Technology"
+      ],
+      "category": "Crypto",
+      "image_keywords": "['bitcoin token', 'crypto trading']",
+      "image": "https://images.unsplash.com/photo-1658225282648-b199eb2a4830?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8MTV8fGJpdGNvaW4lMjB0b2tlbiUyMGNyeXB0byUyMHRyYWRpbmd8ZW58MXwwfHx8MTc5NTgzMDY0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Mariia Berezovsky on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@mariiaberezovsky?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Mariia Berezovsky</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 7,
+      "article_id": "a14",
+      "headline": "US Treasuries Weaken as Rising Stocks Dampen Safe-Haven Demand",
+      "summary": "US Treasury securities fell as trading resumed following the Thanksgiving holiday. A concurrent rise in equity markets curbed investor appetite for traditional haven debt instruments.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-27/treasuries-retreat-as-gains-in-equities-sap-demand-for-havens",
+      "published_time": "2026-11-27T02:43:08+00:00",
+      "impact_type": "Bearish",
+      "market_impact": "Higher yields resulting from bond selling could exert pressure on borrowing costs and rate-sensitive assets.",
+      "sectors_affected": [
+        "Fixed Income",
+        "Banking"
+      ],
+      "category": "Economy",
+      "image_keywords": "['treasury bonds', 'yield chart']",
+      "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mjd8fHRyZWFzdXJ5JTIwYm9uZHMlMjB5aWVsZCUyMGNoYXJ0fGVufDF8MHx8fDE3OTU4MzA2NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Nick Chong on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@nick604?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Nick Chong</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 8,
+      "article_id": "a7",
+      "headline": "Grupo Aeroportuario del Pacifico Completes FIBRA GAP Listing",
+      "summary": "Grupo Aeroportuario del Pacifico closed the initial public offering of FIBRA GAP, raising 7.82 billion Mexican pesos. The transaction finalizes the real estate trust's entry into the public markets.",
+      "source_name": "Investing.com Markets",
+      "source_url": "https://www.investing.com/news/stock-market-news/grupo-aeroportuario-del-pacifico-completes-fibra-gap-ipo-at-ps-782b-432SI-5054018",
+      "published_time": "2026-11-27T23:58:01+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "The completed transaction provides fresh capital and market pricing for regional infrastructure assets.",
+      "sectors_affected": [
+        "Real Estate",
+        "Transportation"
+      ],
+      "category": "IPO",
+      "image_keywords": "['airport terminal', 'stock listing']",
+      "image": "https://images.unsplash.com/photo-1758669246636-17a5f6d972ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mjd8fGFpcnBvcnQlMjB0ZXJtaW5hbCUyMHN0b2NrJTIwbGlzdGluZ3xlbnwxfDB8fHwxNzk1ODMwNjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Jim Petkiewicz on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@pecko?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Jim Petkiewicz</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 9,
+      "article_id": "a19",
+      "headline": "Global Bond Rally Slows on Expectations of December Rate Action",
+      "summary": "A broad advance in sovereign bonds lost momentum amid concerns over sticky Personal Consumption Expenditures inflation figures. The stubborn pricing data fueled market expectations regarding potential Federal Reserve rate policy decisions.",
+      "source_name": "Investing.com Forex",
+      "source_url": "https://www.investing.com/news/forex-news/global-bond-rally-eases-as-sticky-pce-locks-in-december-fed-hike-5052104",
+      "published_time": "2026-11-26T09:01:59+00:00",
+      "impact_type": "Bearish",
+      "market_impact": "Persistently elevated inflation measures could restrict central bank flexibility and maintain pressure on global bond markets.",
+      "sectors_affected": [
+        "Fixed Income",
+        "Financials"
+      ],
+      "category": "Federal Reserve",
+      "image_keywords": "['federal reserve', 'central bank']",
+      "image": "https://images.unsplash.com/photo-1663286357473-39dacb93b5d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8NXx8ZmVkZXJhbCUyMHJlc2VydmUlMjBjZW50cmFsJTIwYmFua3xlbnwxfDB8fHwxNzk1ODMwNjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Megan O'Hanlon on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@megohanlon?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Megan O'Hanlon</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 10,
+      "article_id": "a18",
+      "headline": "Emerging-Market Equities Log Best Week Since June Following Tech Inflows",
+      "summary": "Emerging-market stocks recorded their most substantial weekly advance since June as buyers returned to beaten-down technology shares. The turnaround followed a pronounced international selloff earlier in the month.",
+      "source_name": "Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-27/em-asia-stocks-set-for-weekly-gain-as-markets-regain-footing",
+      "published_time": "2026-11-27T03:33:48+00:00",
+      "impact_type": "Bullish",
+      "market_impact": "Renewed inflows into international equities could stabilize emerging market fund flows.",
+      "sectors_affected": [
+        "Broad Market",
+        "Technology"
+      ],
+      "category": "Markets",
+      "image_keywords": "['global market', 'emerging economies']",
+      "image": "https://images.unsplash.com/photo-1791220155690-bff875110148?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Nnx8Z2xvYmFsJTIwbWFya2V0JTIwZW1lcmdpbmclMjBlY29ub21pZXN8ZW58MXwwfHx8MTc5NTgzMDY1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Brecht Corbeel on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@brechtcorbeel?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Brecht Corbeel</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "rank": 11,
+      "article_id": "a16",
+      "headline": "Retailers Bank on Value-Seeking Consumers Ahead of Black Friday",
+      "summary": "Consumers are actively seeking promotional discounts amid macroeconomic headwinds and persistent inflation. Retail companies are anticipating steady holiday spending across Black Friday and the remainder of the shopping season.",
+      "source_name": "CNBC Top News",
+      "source_url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+      "published_time": "2026-11-27T22:00:57+00:00",
+      "impact_type": "Neutral",
+      "market_impact": "Discount-dependent retail activity could support revenue volume while constraining profit margins.",
+      "sectors_affected": [
+        "Consumer Discretionary",
+        "Retail"
+      ],
+      "category": "Business",
+      "image_keywords": "['shopping bags', 'retail store']",
+      "image": "https://images.unsplash.com/photo-1760565030243-c92ed557e8da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTMwMjU3fDB8MXxzZWFyY2h8Mnx8c2hvcHBpbmclMjBiYWdzJTIwcmV0YWlsJTIwc3RvcmV8ZW58MXwwfHx8MTc5NTgzMDY1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_credit": "Photo by Iuliia Pilipeichenko on Unsplash",
+      "summary_method": "Gemini",
+      "image_credit_html": "<a href=\"https://unsplash.com/@pilipeichenko?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Iuliia Pilipeichenko</a> / <a href=\"https://unsplash.com?utm_source=marketpulsenews&utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    }
+  ],
+  "ai_provider": "Gemini",
+  "date": "2026-11-28",
+  "generated_at_utc": "2026-11-28T01:50:25.587507+00:00",
+  "generated_at_local": "2026-11-28 07:20:25 +0530",
+  "article_count_collected": 20,
+  "feed_status": [
+    {
+      "source": "BBC Business",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "source": "CNBC Top News",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "source": "Federal Reserve",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "source": "SEC Press Releases",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "source": "MarketWatch Top Stories",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "source": "Bloomberg Markets",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "source": "Investing.com Markets",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "source": "Investing.com Crypto",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "source": "Investing.com Forex",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "Investing.com Commodities",
+      "status": "ok",
+      "items": 0
+    }
+  ]
+}
